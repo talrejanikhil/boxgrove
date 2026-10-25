@@ -7,6 +7,7 @@ from sqlalchemy.orm import Session
 
 from app.db.models import Category, Customer, ItemStatus, Order, OrderItem, OrderStatus, Product, Return, ReturnStatus
 from app.db.session import SessionLocal, init_db
+from app.retrieval.indexer import index_all
 
 SEED_DIR = Path(__file__).resolve().parents[2] / "data" / "seed"
 
@@ -70,6 +71,7 @@ def main() -> None:
     init_db()
     with SessionLocal() as session:
         print("Seeded database" if load_fixtures(session) else "Database already seeded")
+        print(f"Indexed {index_all(session)} documents")
 
 
 if __name__ == "__main__":

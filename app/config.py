@@ -8,6 +8,7 @@ class Settings(BaseSettings):
     database_url: str = "sqlite:///boxgrove.db"
     qdrant_url: str = "http://localhost:6333"
     qdrant_collection: str = "boxgrove"
+    embedding_model: str = "text-embedding-3-small"
 
 
 settings = Settings()
