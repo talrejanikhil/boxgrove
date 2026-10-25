@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boxgrove Support</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Boxgrove Support</h1>
+      <label>Customer
+        <select id="customer"><option value="">Guest</option></select>
+      </label>
+    </header>
+    <div id="log" aria-live="polite"></div>
+    <form id="form">
+      <input id="message" autocomplete="off" maxlength="2000" placeholder="Ask about products, orders or returns" required>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+  <script src="/static/chat.js"></script>
+</body>
+</html>

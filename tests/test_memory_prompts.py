@@ -40,3 +40,10 @@ def test_taxonomy_in_prompt_matches_enum() -> None:
 def test_classifier_prompt_covers_conversation_recall() -> None:
     text = render_prompt("intent_classifier/classify_intent.md", intent="order_status")
     assert "recall or repeat something from earlier" in text
+
+
+def test_intent_directive_names_other_intents() -> None:
+    text = render_prompt("main_agent/handle_intent.md", intent="a", position=1, total=2, others=["policy_faq"])
+    assert "policy_faq" in text
+    solo = render_prompt("main_agent/handle_intent.md", intent="a", position=1, total=1, others=[])
+    assert "separate steps" not in solo

@@ -31,7 +31,11 @@ def run_main_agent(request: AgentRequest) -> AgentResult:
         directive = {
             "role": "developer",
             "content": render_prompt(
-                "main_agent/handle_intent.md", intent=intent.value, position=position, total=len(request.intents)
+                "main_agent/handle_intent.md",
+                intent=intent.value,
+                position=position,
+                total=len(request.intents),
+                others=[i.value for i in request.intents if i != intent],
             ),
         }
         next_input = [*conversation, directive] if previous_id is None else [directive]
