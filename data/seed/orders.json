@@ -1,0 +1,778 @@
+[
+  {
+    "id": 1001,
+    "customer_email": "sofia.alvarez@example.com",
+    "status": "delivered",
+    "total": 94.0,
+    "created_at": "2026-07-16T18:00:00",
+    "items": [
+      {
+        "sku": "BTY-009",
+        "qty": 1,
+        "unit_price": 35.0,
+        "status": "active"
+      },
+      {
+        "sku": "HOM-010",
+        "qty": 1,
+        "unit_price": 59.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1002,
+    "customer_email": "priya.raman@example.com",
+    "status": "returned",
+    "total": 118.0,
+    "created_at": "2026-07-21T15:00:00",
+    "items": [
+      {
+        "sku": "KID-009",
+        "qty": 2,
+        "unit_price": 59.0,
+        "status": "returned",
+        "return": {
+          "status": "refunded",
+          "reason": "Changed my mind",
+          "created_at": "2026-08-02T15:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "id": 1003,
+    "customer_email": "yuki.tanaka@example.com",
+    "status": "delivered",
+    "total": 176.0,
+    "created_at": "2026-07-22T15:00:00",
+    "items": [
+      {
+        "sku": "KID-004",
+        "qty": 1,
+        "unit_price": 19.0,
+        "status": "active"
+      },
+      {
+        "sku": "PET-005",
+        "qty": 1,
+        "unit_price": 19.0,
+        "status": "active"
+      },
+      {
+        "sku": "ELE-007",
+        "qty": 2,
+        "unit_price": 69.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1004,
+    "customer_email": "mateo.silva@example.com",
+    "status": "delivered",
+    "total": 230.0,
+    "created_at": "2026-07-24T23:00:00",
+    "items": [
+      {
+        "sku": "ELE-006",
+        "qty": 2,
+        "unit_price": 49.0,
+        "status": "active"
+      },
+      {
+        "sku": "BTY-010",
+        "qty": 1,
+        "unit_price": 16.0,
+        "status": "active"
+      },
+      {
+        "sku": "HOM-006",
+        "qty": 2,
+        "unit_price": 58.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1005,
+    "customer_email": "grace.mitchell@example.com",
+    "status": "delivered",
+    "total": 189.0,
+    "created_at": "2026-07-27T13:00:00",
+    "items": [
+      {
+        "sku": "APP-008",
+        "qty": 1,
+        "unit_price": 189.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1006,
+    "customer_email": "aisha.khan@example.com",
+    "status": "returned",
+    "total": 118.0,
+    "created_at": "2026-07-27T17:00:00",
+    "items": [
+      {
+        "sku": "OUT-010",
+        "qty": 1,
+        "unit_price": 39.0,
+        "status": "returned",
+        "return": {
+          "status": "refunded",
+          "reason": "Not as described",
+          "created_at": "2026-08-06T17:00:00"
+        }
+      },
+      {
+        "sku": "ELE-001",
+        "qty": 1,
+        "unit_price": 79.0,
+        "status": "returned",
+        "return": {
+          "status": "refunded",
+          "reason": "Changed my mind",
+          "created_at": "2026-08-04T17:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "id": 1007,
+    "customer_email": "ethan.brooks@example.com",
+    "status": "delivered",
+    "total": 64.0,
+    "created_at": "2026-07-30T00:00:00",
+    "items": [
+      {
+        "sku": "HOM-003",
+        "qty": 1,
+        "unit_price": 64.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1008,
+    "customer_email": "hannah.weiss@example.com",
+    "status": "delivered",
+    "total": 77.0,
+    "created_at": "2026-08-04T21:00:00",
+    "items": [
+      {
+        "sku": "ELE-008",
+        "qty": 1,
+        "unit_price": 39.0,
+        "status": "active"
+      },
+      {
+        "sku": "KID-004",
+        "qty": 2,
+        "unit_price": 19.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1009,
+    "customer_email": "hannah.weiss@example.com",
+    "status": "delivered",
+    "total": 189.0,
+    "created_at": "2026-08-06T18:00:00",
+    "items": [
+      {
+        "sku": "APP-008",
+        "qty": 1,
+        "unit_price": 189.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1010,
+    "customer_email": "noah.patel@example.com",
+    "status": "delivered",
+    "total": 24.0,
+    "created_at": "2026-08-08T13:00:00",
+    "items": [
+      {
+        "sku": "KID-006",
+        "qty": 1,
+        "unit_price": 24.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1011,
+    "customer_email": "priya.raman@example.com",
+    "status": "returned",
+    "total": 19.0,
+    "created_at": "2026-08-10T19:00:00",
+    "items": [
+      {
+        "sku": "BTY-007",
+        "qty": 1,
+        "unit_price": 19.0,
+        "status": "returned",
+        "return": {
+          "status": "refunded",
+          "reason": "Not as described",
+          "created_at": "2026-08-24T19:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "id": 1012,
+    "customer_email": "aisha.khan@example.com",
+    "status": "delivered",
+    "total": 295.0,
+    "created_at": "2026-08-13T22:00:00",
+    "items": [
+      {
+        "sku": "HOM-009",
+        "qty": 2,
+        "unit_price": 49.0,
+        "status": "active"
+      },
+      {
+        "sku": "HOM-001",
+        "qty": 1,
+        "unit_price": 149.0,
+        "status": "active"
+      },
+      {
+        "sku": "KID-006",
+        "qty": 2,
+        "unit_price": 24.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1013,
+    "customer_email": "lucas.moreau@example.com",
+    "status": "delivered",
+    "total": 211.0,
+    "created_at": "2026-08-25T23:00:00",
+    "items": [
+      {
+        "sku": "KID-002",
+        "qty": 1,
+        "unit_price": 22.0,
+        "status": "active"
+      },
+      {
+        "sku": "APP-008",
+        "qty": 1,
+        "unit_price": 189.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1014,
+    "customer_email": "maya.okafor@example.com",
+    "status": "returned",
+    "total": 68.0,
+    "created_at": "2026-09-08T13:00:00",
+    "items": [
+      {
+        "sku": "KID-001",
+        "qty": 2,
+        "unit_price": 34.0,
+        "status": "returned",
+        "return": {
+          "status": "refunded",
+          "reason": "Changed my mind",
+          "created_at": "2026-09-15T13:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "id": 1015,
+    "customer_email": "chloe.anderson@example.com",
+    "status": "returned",
+    "total": 64.0,
+    "created_at": "2026-09-13T12:00:00",
+    "items": [
+      {
+        "sku": "KID-010",
+        "qty": 1,
+        "unit_price": 42.0,
+        "status": "returned",
+        "return": {
+          "status": "refunded",
+          "reason": "Arrived damaged",
+          "created_at": "2026-09-21T12:00:00"
+        }
+      },
+      {
+        "sku": "KID-002",
+        "qty": 1,
+        "unit_price": 22.0,
+        "status": "returned",
+        "return": {
+          "status": "refunded",
+          "reason": "Wrong size",
+          "created_at": "2026-09-21T12:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "id": 1016,
+    "customer_email": "grace.mitchell@example.com",
+    "status": "delivered",
+    "total": 135.0,
+    "created_at": "2026-09-16T16:00:00",
+    "items": [
+      {
+        "sku": "PET-005",
+        "qty": 1,
+        "unit_price": 19.0,
+        "status": "active"
+      },
+      {
+        "sku": "BTY-003",
+        "qty": 1,
+        "unit_price": 18.0,
+        "status": "active"
+      },
+      {
+        "sku": "HOM-009",
+        "qty": 2,
+        "unit_price": 49.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1017,
+    "customer_email": "hannah.weiss@example.com",
+    "status": "delivered",
+    "total": 109.0,
+    "created_at": "2026-09-18T17:00:00",
+    "items": [
+      {
+        "sku": "ELE-005",
+        "qty": 1,
+        "unit_price": 109.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1018,
+    "customer_email": "lucas.moreau@example.com",
+    "status": "delivered",
+    "total": 65.0,
+    "created_at": "2026-09-19T16:00:00",
+    "items": [
+      {
+        "sku": "BTY-006",
+        "qty": 1,
+        "unit_price": 26.0,
+        "status": "active"
+      },
+      {
+        "sku": "APP-004",
+        "qty": 1,
+        "unit_price": 39.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1019,
+    "customer_email": "priya.raman@example.com",
+    "status": "returned",
+    "total": 45.0,
+    "created_at": "2026-09-21T20:00:00",
+    "items": [
+      {
+        "sku": "OUT-008",
+        "qty": 1,
+        "unit_price": 45.0,
+        "status": "returned",
+        "return": {
+          "status": "refunded",
+          "reason": "Stopped working",
+          "created_at": "2026-10-02T20:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "id": 1020,
+    "customer_email": "noah.patel@example.com",
+    "status": "delivered",
+    "total": 59.0,
+    "created_at": "2026-09-22T22:00:00",
+    "items": [
+      {
+        "sku": "HOM-010",
+        "qty": 1,
+        "unit_price": 59.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1021,
+    "customer_email": "liam.chen@example.com",
+    "status": "delivered",
+    "total": 107.0,
+    "created_at": "2026-09-23T17:00:00",
+    "items": [
+      {
+        "sku": "OUT-006",
+        "qty": 2,
+        "unit_price": 34.0,
+        "status": "active"
+      },
+      {
+        "sku": "ELE-008",
+        "qty": 1,
+        "unit_price": 39.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1022,
+    "customer_email": "yuki.tanaka@example.com",
+    "status": "delivered",
+    "total": 77.0,
+    "created_at": "2026-09-26T13:00:00",
+    "items": [
+      {
+        "sku": "APP-004",
+        "qty": 1,
+        "unit_price": 39.0,
+        "status": "return_requested",
+        "return": {
+          "status": "requested",
+          "reason": "Wrong size",
+          "created_at": "2026-10-22T00:00:00"
+        }
+      },
+      {
+        "sku": "PET-008",
+        "qty": 1,
+        "unit_price": 16.0,
+        "status": "active"
+      },
+      {
+        "sku": "OUT-009",
+        "qty": 1,
+        "unit_price": 22.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1023,
+    "customer_email": "hannah.weiss@example.com",
+    "status": "delivered",
+    "total": 38.0,
+    "created_at": "2026-10-09T12:00:00",
+    "items": [
+      {
+        "sku": "PET-005",
+        "qty": 2,
+        "unit_price": 19.0,
+        "status": "return_requested",
+        "return": {
+          "status": "requested",
+          "reason": "Wrong size",
+          "created_at": "2026-10-24T00:00:00"
+        }
+      }
+    ]
+  },
+  {
+    "id": 1024,
+    "customer_email": "yuki.tanaka@example.com",
+    "status": "shipped",
+    "total": 302.0,
+    "created_at": "2026-10-16T22:00:00",
+    "items": [
+      {
+        "sku": "PET-001",
+        "qty": 1,
+        "unit_price": 79.0,
+        "status": "active"
+      },
+      {
+        "sku": "BTY-005",
+        "qty": 1,
+        "unit_price": 24.0,
+        "status": "active"
+      },
+      {
+        "sku": "ELE-010",
+        "qty": 1,
+        "unit_price": 199.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1025,
+    "customer_email": "omar.haddad@example.com",
+    "status": "shipped",
+    "total": 89.0,
+    "created_at": "2026-10-18T00:00:00",
+    "items": [
+      {
+        "sku": "APP-001",
+        "qty": 1,
+        "unit_price": 89.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1026,
+    "customer_email": "jack.oconnor@example.com",
+    "status": "shipped",
+    "total": 16.0,
+    "created_at": "2026-10-18T00:00:00",
+    "items": [
+      {
+        "sku": "PET-008",
+        "qty": 1,
+        "unit_price": 16.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1027,
+    "customer_email": "yuki.tanaka@example.com",
+    "status": "shipped",
+    "total": 226.0,
+    "created_at": "2026-10-19T15:00:00",
+    "items": [
+      {
+        "sku": "PET-006",
+        "qty": 2,
+        "unit_price": 38.0,
+        "status": "active"
+      },
+      {
+        "sku": "HOM-006",
+        "qty": 2,
+        "unit_price": 58.0,
+        "status": "active"
+      },
+      {
+        "sku": "OUT-006",
+        "qty": 1,
+        "unit_price": 34.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1028,
+    "customer_email": "grace.mitchell@example.com",
+    "status": "shipped",
+    "total": 64.0,
+    "created_at": "2026-10-19T21:00:00",
+    "items": [
+      {
+        "sku": "BTY-005",
+        "qty": 1,
+        "unit_price": 24.0,
+        "status": "active"
+      },
+      {
+        "sku": "KID-008",
+        "qty": 1,
+        "unit_price": 21.0,
+        "status": "active"
+      },
+      {
+        "sku": "BTY-007",
+        "qty": 1,
+        "unit_price": 19.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1029,
+    "customer_email": "emma.johansson@example.com",
+    "status": "processing",
+    "total": 199.0,
+    "created_at": "2026-10-21T15:00:00",
+    "items": [
+      {
+        "sku": "OUT-004",
+        "qty": 1,
+        "unit_price": 199.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1030,
+    "customer_email": "grace.mitchell@example.com",
+    "status": "shipped",
+    "total": 29.0,
+    "created_at": "2026-10-21T16:00:00",
+    "items": [
+      {
+        "sku": "OUT-002",
+        "qty": 1,
+        "unit_price": 29.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1031,
+    "customer_email": "lucas.moreau@example.com",
+    "status": "processing",
+    "total": 48.0,
+    "created_at": "2026-10-21T21:00:00",
+    "items": [
+      {
+        "sku": "HOM-007",
+        "qty": 1,
+        "unit_price": 24.0,
+        "status": "active"
+      },
+      {
+        "sku": "PET-002",
+        "qty": 2,
+        "unit_price": 12.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1032,
+    "customer_email": "ethan.brooks@example.com",
+    "status": "shipped",
+    "total": 40.0,
+    "created_at": "2026-10-21T22:00:00",
+    "items": [
+      {
+        "sku": "PET-009",
+        "qty": 1,
+        "unit_price": 18.0,
+        "status": "active"
+      },
+      {
+        "sku": "BTY-008",
+        "qty": 1,
+        "unit_price": 22.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1033,
+    "customer_email": "mateo.silva@example.com",
+    "status": "processing",
+    "total": 177.0,
+    "created_at": "2026-10-22T15:00:00",
+    "items": [
+      {
+        "sku": "PET-001",
+        "qty": 1,
+        "unit_price": 79.0,
+        "status": "active"
+      },
+      {
+        "sku": "ELE-006",
+        "qty": 2,
+        "unit_price": 49.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1034,
+    "customer_email": "emma.johansson@example.com",
+    "status": "processing",
+    "total": 81.0,
+    "created_at": "2026-10-22T22:00:00",
+    "items": [
+      {
+        "sku": "ELE-008",
+        "qty": 1,
+        "unit_price": 39.0,
+        "status": "active"
+      },
+      {
+        "sku": "KID-010",
+        "qty": 1,
+        "unit_price": 42.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1035,
+    "customer_email": "yuki.tanaka@example.com",
+    "status": "processing",
+    "total": 392.0,
+    "created_at": "2026-10-22T23:00:00",
+    "items": [
+      {
+        "sku": "OUT-001",
+        "qty": 1,
+        "unit_price": 219.0,
+        "status": "active"
+      },
+      {
+        "sku": "KID-005",
+        "qty": 1,
+        "unit_price": 89.0,
+        "status": "active"
+      },
+      {
+        "sku": "APP-010",
+        "qty": 1,
+        "unit_price": 84.0,
+        "status": "active"
+      }
+    ]
+  },
+  {
+    "id": 1036,
+    "customer_email": "chloe.anderson@example.com",
+    "status": "processing",
+    "total": 186.0,
+    "created_at": "2026-10-24T19:00:00",
+    "items": [
+      {
+        "sku": "APP-004",
+        "qty": 2,
+        "unit_price": 39.0,
+        "status": "active"
+      },
+      {
+        "sku": "APP-010",
+        "qty": 1,
+        "unit_price": 84.0,
+        "status": "active"
+      },
+      {
+        "sku": "HOM-007",
+        "qty": 1,
+        "unit_price": 24.0,
+        "status": "active"
+      }
+    ]
+  }
+]

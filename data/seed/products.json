@@ -1,0 +1,632 @@
+[
+  {
+    "category": "Apparel",
+    "sku": "APP-001",
+    "name": "Merino Crewneck Sweater",
+    "description": "Midweight sweater knit from 100% extra-fine merino wool. Naturally temperature regulating and odor resistant, with ribbed cuffs and hem. Machine washable on the wool cycle.",
+    "price": 89.0,
+    "currency": "USD",
+    "stock_qty": 90
+  },
+  {
+    "category": "Apparel",
+    "sku": "APP-002",
+    "name": "Classic Fit Oxford Shirt",
+    "description": "Button-down oxford in brushed 100% cotton with a relaxed classic fit. Chest pocket, mother-of-pearl style buttons, and a collar that holds its shape without a tie.",
+    "price": 59.0,
+    "currency": "USD",
+    "stock_qty": 46
+  },
+  {
+    "category": "Apparel",
+    "sku": "APP-003",
+    "name": "Stretch Chino Pants",
+    "description": "Everyday chinos in a cotton-elastane twill with 2% stretch. Straight leg, mid rise, and a wrinkle-resistant finish. Available in waist sizes 28 to 40.",
+    "price": 69.0,
+    "currency": "USD",
+    "stock_qty": 109
+  },
+  {
+    "category": "Apparel",
+    "sku": "APP-004",
+    "name": "Organic Cotton T-Shirt 3-Pack",
+    "description": "Three crew-neck tees in GOTS-certified organic cotton. Pre-shrunk, tagless, and soft after the first wash. Comes in white, heather grey and navy.",
+    "price": 39.0,
+    "currency": "USD",
+    "stock_qty": 20
+  },
+  {
+    "category": "Apparel",
+    "sku": "APP-005",
+    "name": "Waterproof Rain Jacket",
+    "description": "Fully seam-sealed 2.5-layer shell with a 10,000mm waterproof rating and a packable hood. Underarm vents and two zippered hand pockets. Packs into its own chest pocket.",
+    "price": 129.0,
+    "currency": "USD",
+    "stock_qty": 26
+  },
+  {
+    "category": "Apparel",
+    "sku": "APP-006",
+    "name": "Fleece-Lined Joggers",
+    "description": "Cotton-blend joggers with a brushed fleece interior for cold evenings. Elastic waist with drawcord, tapered ankle cuffs, and deep side pockets.",
+    "price": 54.0,
+    "currency": "USD",
+    "stock_qty": 145
+  },
+  {
+    "category": "Apparel",
+    "sku": "APP-007",
+    "name": "Slim Dark Denim Jeans",
+    "description": "Slim-fit jeans in 12oz selvedge-style denim with a touch of stretch. Dark indigo wash, five-pocket styling, and a mid rise. Machine wash cold, inside out.",
+    "price": 79.0,
+    "currency": "USD",
+    "stock_qty": 32
+  },
+  {
+    "category": "Apparel",
+    "sku": "APP-008",
+    "name": "Wool Blend Overcoat",
+    "description": "Knee-length overcoat in a 70% wool, 30% recycled polyester blend. Fully lined, notch lapel, two inner pockets. Dry clean only.",
+    "price": 189.0,
+    "currency": "USD",
+    "stock_qty": 101
+  },
+  {
+    "category": "Apparel",
+    "sku": "APP-009",
+    "name": "Performance Running Shorts",
+    "description": "Lightweight 5-inch running shorts with a built-in liner, reflective trim, and a zippered back pocket. Quick-dry recycled polyester fabric.",
+    "price": 34.0,
+    "currency": "USD",
+    "stock_qty": 22
+  },
+  {
+    "category": "Apparel",
+    "sku": "APP-010",
+    "name": "Linen Summer Dress",
+    "description": "Midi dress in washed European linen with a square neckline, adjustable shoulder ties, and side pockets. Breathable and relaxed through the body.",
+    "price": 84.0,
+    "currency": "USD",
+    "stock_qty": 137
+  },
+  {
+    "category": "Electronics",
+    "sku": "ELE-001",
+    "name": "NovaBeat Wireless Earbuds",
+    "description": "True wireless earbuds with Bluetooth 5.4, 8 hours of playback and 24 more from the charging case. IPX5 sweat resistance and three sizes of silicone tips.",
+    "price": 79.0,
+    "currency": "USD",
+    "stock_qty": 62
+  },
+  {
+    "category": "Electronics",
+    "sku": "ELE-002",
+    "name": "Aurora 27-inch 4K Monitor",
+    "description": "27-inch IPS display with 3840x2160 resolution, 99% sRGB coverage, and a 60Hz refresh rate. USB-C input with 65W power delivery, height-adjustable stand.",
+    "price": 349.0,
+    "currency": "USD",
+    "stock_qty": 2
+  },
+  {
+    "category": "Electronics",
+    "sku": "ELE-003",
+    "name": "PulseFit Fitness Tracker",
+    "description": "Slim tracker with continuous heart rate, SpO2 and sleep tracking. 10-day battery life, 5ATM water resistance, and built-in GPS for runs and rides.",
+    "price": 99.0,
+    "currency": "USD",
+    "stock_qty": 30
+  },
+  {
+    "category": "Electronics",
+    "sku": "ELE-004",
+    "name": "Portable Power Bank 20,000mAh",
+    "description": "20,000mAh battery pack with two USB-C ports and one USB-A port. 30W fast charging, and a digital display showing remaining charge. Airline carry-on approved.",
+    "price": 45.0,
+    "currency": "USD",
+    "stock_qty": 119
+  },
+  {
+    "category": "Electronics",
+    "sku": "ELE-005",
+    "name": "Mechanical Keyboard TKL",
+    "description": "Tenkeyless mechanical keyboard with hot-swappable linear switches, PBT keycaps, and per-key white backlighting. Wired USB-C, 1.8m braided cable.",
+    "price": 109.0,
+    "currency": "USD",
+    "stock_qty": 115
+  },
+  {
+    "category": "Electronics",
+    "sku": "ELE-006",
+    "name": "Wireless Ergonomic Mouse",
+    "description": "Vertical ergonomic mouse that keeps the wrist in a handshake position. Bluetooth or 2.4GHz receiver, adjustable 800 to 3200 DPI, and up to 6 months on one AA battery.",
+    "price": 49.0,
+    "currency": "USD",
+    "stock_qty": 25
+  },
+  {
+    "category": "Electronics",
+    "sku": "ELE-007",
+    "name": "SoundCore Bluetooth Speaker",
+    "description": "Portable speaker with 360-degree sound, 12 hours of playtime, and IP67 dust and water resistance. Pair two speakers for stereo. USB-C charging.",
+    "price": 69.0,
+    "currency": "USD",
+    "stock_qty": 69
+  },
+  {
+    "category": "Electronics",
+    "sku": "ELE-008",
+    "name": "65W GaN USB-C Charger",
+    "description": "Compact gallium nitride wall charger with two USB-C ports and one USB-A. Charges a laptop and phone at once. Foldable plug, 1.5m cable included.",
+    "price": 39.0,
+    "currency": "USD",
+    "stock_qty": 31
+  },
+  {
+    "category": "Electronics",
+    "sku": "ELE-009",
+    "name": "1080p Home Security Camera",
+    "description": "Indoor Wi-Fi camera with 1080p video, night vision to 8 metres, two-way audio, and person detection. Works with microSD storage up to 256GB.",
+    "price": 59.0,
+    "currency": "USD",
+    "stock_qty": 149
+  },
+  {
+    "category": "Electronics",
+    "sku": "ELE-010",
+    "name": "Noise-Cancelling Over-Ear Headphones",
+    "description": "Over-ear Bluetooth headphones with hybrid active noise cancellation, 40-hour battery, multipoint pairing, and a foldable design with a hard carry case.",
+    "price": 199.0,
+    "currency": "USD",
+    "stock_qty": 0
+  },
+  {
+    "category": "Home",
+    "sku": "HOM-001",
+    "name": "Linen Duvet Cover Set Queen",
+    "description": "Queen duvet cover and two pillowcases in stonewashed 100% French flax linen. Button closure with corner ties. Softens with every wash. Machine washable.",
+    "price": 149.0,
+    "currency": "USD",
+    "stock_qty": 23
+  },
+  {
+    "category": "Home",
+    "sku": "HOM-002",
+    "name": "Memory Foam Pillow",
+    "description": "Contoured memory foam pillow with a cooling gel layer and a removable bamboo-blend cover. Medium-firm support for back and side sleepers.",
+    "price": 44.0,
+    "currency": "USD",
+    "stock_qty": 39
+  },
+  {
+    "category": "Home",
+    "sku": "HOM-003",
+    "name": "Ceramic Table Lamp",
+    "description": "Hand-glazed ceramic base in speckled cream with a linen drum shade. Uses a standard E26 bulb up to 60W (bulb not included). Inline rotary switch.",
+    "price": 64.0,
+    "currency": "USD",
+    "stock_qty": 65
+  },
+  {
+    "category": "Home",
+    "sku": "HOM-004",
+    "name": "Woven Cotton Throw Blanket",
+    "description": "Textured 50 by 60 inch throw in a chunky cotton weave with tasselled edges. Machine washable, available in oatmeal, sage and charcoal.",
+    "price": 52.0,
+    "currency": "USD",
+    "stock_qty": 23
+  },
+  {
+    "category": "Home",
+    "sku": "HOM-005",
+    "name": "Cordless Robot Vacuum",
+    "description": "Robot vacuum with 3000Pa suction, gyroscope navigation, and a 150-minute runtime. Self-docks to recharge, handles hard floors and low-pile carpet, app and voice control.",
+    "price": 249.0,
+    "currency": "USD",
+    "stock_qty": 3
+  },
+  {
+    "category": "Home",
+    "sku": "HOM-006",
+    "name": "Bamboo Bath Towel Set",
+    "description": "Set of two bath towels and two hand towels woven from viscose from bamboo. Absorbent, naturally antibacterial, and gentle on sensitive skin.",
+    "price": 58.0,
+    "currency": "USD",
+    "stock_qty": 20
+  },
+  {
+    "category": "Home",
+    "sku": "HOM-007",
+    "name": "Scented Soy Candle",
+    "description": "Hand-poured soy wax candle in a reusable amber glass jar. Cedar and bergamot scent with a cotton wick and roughly 45 hours of burn time.",
+    "price": 24.0,
+    "currency": "USD",
+    "stock_qty": 64
+  },
+  {
+    "category": "Home",
+    "sku": "HOM-008",
+    "name": "Floating Wall Shelf Set",
+    "description": "Set of three solid pine floating shelves in 16, 24 and 36 inch lengths. Hidden bracket mounting hardware included, each rated for 25 lbs.",
+    "price": 38.0,
+    "currency": "USD",
+    "stock_qty": 19
+  },
+  {
+    "category": "Home",
+    "sku": "HOM-009",
+    "name": "Blackout Curtain Panels",
+    "description": "Pair of thermal blackout curtains, 52 by 84 inches each, with grommet tops. Blocks 99% of light and reduces outside noise. Machine washable.",
+    "price": 49.0,
+    "currency": "USD",
+    "stock_qty": 150
+  },
+  {
+    "category": "Home",
+    "sku": "HOM-010",
+    "name": "Ultrasonic Humidifier",
+    "description": "4 litre cool-mist humidifier with a quiet ultrasonic mechanism, 30-hour runtime, auto shut-off and a top-fill design that is easy to clean.",
+    "price": 59.0,
+    "currency": "USD",
+    "stock_qty": 42
+  },
+  {
+    "category": "Outdoors",
+    "sku": "OUT-001",
+    "name": "2-Person Backpacking Tent",
+    "description": "Freestanding double-wall tent weighing 3.4 lbs. Two doors, two vestibules, and a rainfly rated to 3000mm. Pitches in under five minutes with colour-coded poles.",
+    "price": 219.0,
+    "currency": "USD",
+    "stock_qty": 82
+  },
+  {
+    "category": "Outdoors",
+    "sku": "OUT-002",
+    "name": "Insulated Water Bottle 32oz",
+    "description": "Double-wall vacuum insulated stainless steel bottle. Keeps drinks cold 24 hours or hot 12 hours. Leak-proof lid, powder-coated grip, fits most cup holders.",
+    "price": 29.0,
+    "currency": "USD",
+    "stock_qty": 115
+  },
+  {
+    "category": "Outdoors",
+    "sku": "OUT-003",
+    "name": "Trekking Poles Pair",
+    "description": "Collapsible carbon-fibre poles with cork grips, quick-lock adjustment, and carbide tips. Weigh 16oz per pair and fold down to 15 inches.",
+    "price": 69.0,
+    "currency": "USD",
+    "stock_qty": 44
+  },
+  {
+    "category": "Outdoors",
+    "sku": "OUT-004",
+    "name": "Down Sleeping Bag 20F",
+    "description": "Mummy bag filled with 650-fill water-resistant down, rated to 20 degrees Fahrenheit. Draft collar, anti-snag zipper, and a compression sack included.",
+    "price": 199.0,
+    "currency": "USD",
+    "stock_qty": 0
+  },
+  {
+    "category": "Outdoors",
+    "sku": "OUT-005",
+    "name": "40L Hiking Backpack",
+    "description": "Ventilated back panel with an adjustable torso length and padded hip belt. Rain cover, hydration sleeve, and trekking pole loops. Fits most airline overhead bins.",
+    "price": 129.0,
+    "currency": "USD",
+    "stock_qty": 38
+  },
+  {
+    "category": "Outdoors",
+    "sku": "OUT-006",
+    "name": "Rechargeable LED Headlamp",
+    "description": "400-lumen headlamp with white and red light modes, USB-C charging, and an IPX6 rating. Tilting beam and a battery that lasts up to 40 hours on low.",
+    "price": 34.0,
+    "currency": "USD",
+    "stock_qty": 86
+  },
+  {
+    "category": "Outdoors",
+    "sku": "OUT-007",
+    "name": "Compact Camping Stove",
+    "description": "Canister stove that boils a litre of water in about three minutes. Folding pot supports, piezo igniter, and a total weight of 3.9oz. Canister sold separately.",
+    "price": 49.0,
+    "currency": "USD",
+    "stock_qty": 54
+  },
+  {
+    "category": "Outdoors",
+    "sku": "OUT-008",
+    "name": "Folding Camp Chair",
+    "description": "Lightweight folding chair with a steel frame, breathable mesh back, and cup holder. Supports up to 250 lbs and packs into a carry bag.",
+    "price": 45.0,
+    "currency": "USD",
+    "stock_qty": 34
+  },
+  {
+    "category": "Outdoors",
+    "sku": "OUT-009",
+    "name": "Waterproof Dry Bag 20L",
+    "description": "Roll-top dry bag in welded 500D PVC-free fabric that keeps gear dry when fully submerged. Adjustable shoulder strap and a clear window.",
+    "price": 22.0,
+    "currency": "USD",
+    "stock_qty": 56
+  },
+  {
+    "category": "Outdoors",
+    "sku": "OUT-010",
+    "name": "Hammock with Straps",
+    "description": "Double parachute-nylon hammock that holds 400 lbs. Includes two tree-friendly straps and carabiners, and packs to the size of a grapefruit.",
+    "price": 39.0,
+    "currency": "USD",
+    "stock_qty": 103
+  },
+  {
+    "category": "Beauty",
+    "sku": "BTY-001",
+    "name": "Vitamin C Serum 30ml",
+    "description": "15% L-ascorbic acid serum with vitamin E and ferulic acid to brighten dull skin and soften the look of dark spots. Fragrance-free, dermatologist tested.",
+    "price": 38.0,
+    "currency": "USD",
+    "stock_qty": 32
+  },
+  {
+    "category": "Beauty",
+    "sku": "BTY-002",
+    "name": "Hydrating Daily Moisturizer SPF 30",
+    "description": "Lightweight face moisturizer with hyaluronic acid and broad spectrum SPF 30. Absorbs without white cast and wears well under makeup. 50ml.",
+    "price": 28.0,
+    "currency": "USD",
+    "stock_qty": 148
+  },
+  {
+    "category": "Beauty",
+    "sku": "BTY-003",
+    "name": "Gentle Foaming Cleanser",
+    "description": "Sulfate-free daily face wash with ceramides and green tea extract. Removes oil and sunscreen without stripping skin. Suitable for sensitive skin. 150ml.",
+    "price": 18.0,
+    "currency": "USD",
+    "stock_qty": 24
+  },
+  {
+    "category": "Beauty",
+    "sku": "BTY-004",
+    "name": "Retinol Night Cream",
+    "description": "0.3% encapsulated retinol cream with peptides and squalane to reduce fine lines overnight. Use at night only and follow with daily sunscreen. 50ml.",
+    "price": 46.0,
+    "currency": "USD",
+    "stock_qty": 0
+  },
+  {
+    "category": "Beauty",
+    "sku": "BTY-005",
+    "name": "Mineral Sunscreen SPF 50",
+    "description": "Zinc oxide sunscreen that is reef-safe and water resistant for 80 minutes. Sheer finish for all skin tones, fragrance-free. 90ml tube.",
+    "price": 24.0,
+    "currency": "USD",
+    "stock_qty": 60
+  },
+  {
+    "category": "Beauty",
+    "sku": "BTY-006",
+    "name": "Argan Oil Hair Mask",
+    "description": "Deep conditioning mask with Moroccan argan oil and shea butter for dry or colour-treated hair. Leave on for five minutes. 200ml jar.",
+    "price": 26.0,
+    "currency": "USD",
+    "stock_qty": 135
+  },
+  {
+    "category": "Beauty",
+    "sku": "BTY-007",
+    "name": "Matte Liquid Lipstick",
+    "description": "Long-wear liquid lipstick with a comfortable matte finish that lasts up to 8 hours. Vegan and cruelty-free, available in 12 shades.",
+    "price": 19.0,
+    "currency": "USD",
+    "stock_qty": 144
+  },
+  {
+    "category": "Beauty",
+    "sku": "BTY-008",
+    "name": "Charcoal Clay Face Mask",
+    "description": "Purifying mask with bentonite clay and activated charcoal to draw out impurities and minimise the look of pores. Use once or twice a week. 100ml.",
+    "price": 22.0,
+    "currency": "USD",
+    "stock_qty": 117
+  },
+  {
+    "category": "Beauty",
+    "sku": "BTY-009",
+    "name": "Beard Grooming Kit",
+    "description": "Kit with beard oil, balm, a boar bristle brush and a wooden comb in a gift tin. Sandalwood scent. Softens and tames beards of any length.",
+    "price": 35.0,
+    "currency": "USD",
+    "stock_qty": 88
+  },
+  {
+    "category": "Beauty",
+    "sku": "BTY-010",
+    "name": "Rose Water Facial Mist",
+    "description": "Alcohol-free toner mist made from steam-distilled Bulgarian rose water. Refreshes skin through the day and works over makeup. 100ml spray bottle.",
+    "price": 16.0,
+    "currency": "USD",
+    "stock_qty": 127
+  },
+  {
+    "category": "Kids",
+    "sku": "KID-001",
+    "name": "Wooden Building Blocks 100 Piece",
+    "description": "100 smooth beech wood blocks in assorted shapes and colours, finished with non-toxic water-based paint. Comes in a cotton storage bag. Ages 2 and up.",
+    "price": 34.0,
+    "currency": "USD",
+    "stock_qty": 124
+  },
+  {
+    "category": "Kids",
+    "sku": "KID-002",
+    "name": "Kids Insulated Lunch Box",
+    "description": "Insulated lunch bag with a leak-proof liner and a front pocket for utensils. Wipes clean and keeps food cool for up to four hours. Fits a standard bento box.",
+    "price": 22.0,
+    "currency": "USD",
+    "stock_qty": 100
+  },
+  {
+    "category": "Kids",
+    "sku": "KID-003",
+    "name": "Toddler Rain Boots",
+    "description": "Flexible natural rubber boots with a cotton lining, easy-pull handles and a non-slip tread. Available in toddler sizes 5 to 10.",
+    "price": 28.0,
+    "currency": "USD",
+    "stock_qty": 84
+  },
+  {
+    "category": "Kids",
+    "sku": "KID-004",
+    "name": "Illustrated Bedtime Story Collection",
+    "description": "Hardcover collection of 20 short stories with full-page illustrations, written for read-aloud time. 192 pages. Recommended for ages 3 to 7.",
+    "price": 19.0,
+    "currency": "USD",
+    "stock_qty": 71
+  },
+  {
+    "category": "Kids",
+    "sku": "KID-005",
+    "name": "Kids Balance Bike",
+    "description": "Lightweight 12-inch balance bike with a magnesium frame, air-free tyres and an adjustable seat. No pedals, so children learn balance first. Ages 2 to 5.",
+    "price": 89.0,
+    "currency": "USD",
+    "stock_qty": 54
+  },
+  {
+    "category": "Kids",
+    "sku": "KID-006",
+    "name": "Magnetic Drawing Board",
+    "description": "Mess-free drawing board with a magnetic pen and stamps. Slide the eraser bar to clear. Includes 13 by 10 inch board. Ages 3 and up.",
+    "price": 24.0,
+    "currency": "USD",
+    "stock_qty": 70
+  },
+  {
+    "category": "Kids",
+    "sku": "KID-007",
+    "name": "Child's Waterproof Backpack",
+    "description": "12-litre backpack in water-resistant fabric with padded straps, a chest clip and reflective details. Fits a tablet and a water bottle. Ages 4 to 8.",
+    "price": 36.0,
+    "currency": "USD",
+    "stock_qty": 28
+  },
+  {
+    "category": "Kids",
+    "sku": "KID-008",
+    "name": "Plush Dinosaur",
+    "description": "Super-soft 14-inch plush stegosaurus with embroidered eyes, filled with recycled polyester fibre. Machine washable. Suitable from birth.",
+    "price": 21.0,
+    "currency": "USD",
+    "stock_qty": 84
+  },
+  {
+    "category": "Kids",
+    "sku": "KID-009",
+    "name": "STEM Robot Building Kit",
+    "description": "Build-your-own robot kit with 190 parts, a motor, and a programmable remote. Teaches basic circuits and mechanics. Batteries not included. Ages 8 and up.",
+    "price": 59.0,
+    "currency": "USD",
+    "stock_qty": 142
+  },
+  {
+    "category": "Kids",
+    "sku": "KID-010",
+    "name": "Kids Sleeping Bag",
+    "description": "Soft cotton-flannel sleeping bag with a dinosaur print, rated for indoor sleepovers. Zips fully open and packs into a drawstring sack. Ages 3 to 10.",
+    "price": 42.0,
+    "currency": "USD",
+    "stock_qty": 134
+  },
+  {
+    "category": "Pets",
+    "sku": "PET-001",
+    "name": "Orthopedic Dog Bed Large",
+    "description": "Large 36 by 27 inch dog bed with a 4-inch orthopedic memory foam base for joint support and a removable, machine washable cover. Non-slip bottom.",
+    "price": 79.0,
+    "currency": "USD",
+    "stock_qty": 95
+  },
+  {
+    "category": "Pets",
+    "sku": "PET-002",
+    "name": "Interactive Cat Feather Wand",
+    "description": "Telescoping wand with a swivel hook and three replaceable feather and bell attachments. Encourages exercise and play. 40 inches fully extended.",
+    "price": 12.0,
+    "currency": "USD",
+    "stock_qty": 122
+  },
+  {
+    "category": "Pets",
+    "sku": "PET-003",
+    "name": "No-Pull Dog Harness",
+    "description": "Padded, adjustable harness with a front clip to discourage pulling. Reflective stitching, breathable mesh, and a sturdy handle for control. Sizes S to XL.",
+    "price": 32.0,
+    "currency": "USD",
+    "stock_qty": 81
+  },
+  {
+    "category": "Pets",
+    "sku": "PET-004",
+    "name": "Automatic Pet Feeder",
+    "description": "4 litre programmable feeder with up to six meals per day, portion control, and a backup battery. Dishwasher-safe stainless steel bowl.",
+    "price": 69.0,
+    "currency": "USD",
+    "stock_qty": 26
+  },
+  {
+    "category": "Pets",
+    "sku": "PET-005",
+    "name": "Stainless Steel Pet Bowl Set",
+    "description": "Set of two 24oz stainless steel bowls with non-slip silicone bases. Dishwasher safe and rust resistant. Suitable for cats and small dogs.",
+    "price": 19.0,
+    "currency": "USD",
+    "stock_qty": 38
+  },
+  {
+    "category": "Pets",
+    "sku": "PET-006",
+    "name": "Cat Scratching Post",
+    "description": "32-inch sisal-wrapped scratching post with a plush perch on top and a stable weighted base. Easy tool-free assembly.",
+    "price": 38.0,
+    "currency": "USD",
+    "stock_qty": 139
+  },
+  {
+    "category": "Pets",
+    "sku": "PET-007",
+    "name": "Retractable Dog Leash 5m",
+    "description": "5-metre retractable leash for dogs up to 50 lbs. One-handed brake and lock, anti-slip handle, and tangle-free tape.",
+    "price": 24.0,
+    "currency": "USD",
+    "stock_qty": 115
+  },
+  {
+    "category": "Pets",
+    "sku": "PET-008",
+    "name": "Grain-Free Dog Treats",
+    "description": "Oven-baked grain-free training treats made with real chicken and sweet potato. No artificial colours or preservatives. 12oz resealable bag.",
+    "price": 16.0,
+    "currency": "USD",
+    "stock_qty": 50
+  },
+  {
+    "category": "Pets",
+    "sku": "PET-009",
+    "name": "Self-Cleaning Slicker Brush",
+    "description": "Slicker brush with fine bent bristles that remove loose fur and tangles. Press the button to retract the bristles and release the hair. Cats and dogs.",
+    "price": 18.0,
+    "currency": "USD",
+    "stock_qty": 95
+  },
+  {
+    "category": "Pets",
+    "sku": "PET-010",
+    "name": "Cat Tunnel Play Set",
+    "description": "Collapsible three-way crinkle tunnel with a hanging toy ball and peek holes. Folds flat for storage. Tunnel is 10 inches in diameter.",
+    "price": 27.0,
+    "currency": "USD",
+    "stock_qty": 46
+  }
+]
