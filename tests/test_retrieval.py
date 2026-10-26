@@ -15,6 +15,7 @@ def search(client: QdrantClient, query: str, **kwargs) -> list[dict]:
 def test_documents_cover_products_and_policy_sections(seeded: Session) -> None:
     products, policies = product_documents(seeded), policy_documents()
     assert len(products) == 70
+    assert any("Colors:" in d.text and "Dimensions:" in d.text for d in products)
     assert {p.payload["source"] for p in policies} == {"shipping.md", "returns.md", "warranty.md", "payment_methods.md"}
     assert len({d.key for d in [*products, *policies]}) == len(products) + len(policies)
 

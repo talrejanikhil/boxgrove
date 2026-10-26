@@ -6,7 +6,22 @@
     "description": "Midweight sweater knit from 100% extra-fine merino wool. Naturally temperature regulating and odor resistant, with ribbed cuffs and hem. Machine washable on the wool cycle.",
     "price": 89.0,
     "currency": "USD",
-    "stock_qty": 90
+    "stock_qty": 90,
+    "colors": [
+      "Navy",
+      "Charcoal",
+      "Oatmeal",
+      "Forest Green"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "dimensions": "Body length 27 in (size M)",
+    "weight": "14 oz",
+    "material": "100% extra-fine merino wool"
   },
   {
     "category": "Apparel",
@@ -15,7 +30,22 @@
     "description": "Button-down oxford in brushed 100% cotton with a relaxed classic fit. Chest pocket, mother-of-pearl style buttons, and a collar that holds its shape without a tie.",
     "price": 59.0,
     "currency": "USD",
-    "stock_qty": 46
+    "stock_qty": 46,
+    "colors": [
+      "White",
+      "Light Blue",
+      "Navy"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "dimensions": "Body length 30 in (size M)",
+    "weight": "9 oz",
+    "material": "100% brushed cotton"
   },
   {
     "category": "Apparel",
@@ -24,7 +54,25 @@
     "description": "Everyday chinos in a cotton-elastane twill with 2% stretch. Straight leg, mid rise, and a wrinkle-resistant finish. Available in waist sizes 28 to 40.",
     "price": 69.0,
     "currency": "USD",
-    "stock_qty": 109
+    "stock_qty": 109,
+    "colors": [
+      "Khaki",
+      "Navy",
+      "Olive",
+      "Black"
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "dimensions": "Inseam 32 in",
+    "weight": "15 oz",
+    "material": "98% cotton, 2% elastane"
   },
   {
     "category": "Apparel",
@@ -33,7 +81,22 @@
     "description": "Three crew-neck tees in GOTS-certified organic cotton. Pre-shrunk, tagless, and soft after the first wash. Comes in white, heather grey and navy.",
     "price": 39.0,
     "currency": "USD",
-    "stock_qty": 20
+    "stock_qty": 20,
+    "colors": [
+      "White",
+      "Heather Grey",
+      "Navy"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "dimensions": "Body length 28 in (size M)",
+    "weight": "18 oz (3 tees)",
+    "material": "100% GOTS-certified organic cotton"
   },
   {
     "category": "Apparel",
@@ -42,7 +105,22 @@
     "description": "Fully seam-sealed 2.5-layer shell with a 10,000mm waterproof rating and a packable hood. Underarm vents and two zippered hand pockets. Packs into its own chest pocket.",
     "price": 129.0,
     "currency": "USD",
-    "stock_qty": 26
+    "stock_qty": 26,
+    "colors": [
+      "Black",
+      "Navy",
+      "Safety Yellow"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "dimensions": "Packed 8 x 5 in",
+    "weight": "13 oz",
+    "material": "2.5-layer recycled nylon shell"
   },
   {
     "category": "Apparel",
@@ -51,7 +129,22 @@
     "description": "Cotton-blend joggers with a brushed fleece interior for cold evenings. Elastic waist with drawcord, tapered ankle cuffs, and deep side pockets.",
     "price": 54.0,
     "currency": "USD",
-    "stock_qty": 145
+    "stock_qty": 145,
+    "colors": [
+      "Heather Grey",
+      "Black",
+      "Navy"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "dimensions": "Inseam 29 in",
+    "weight": "20 oz",
+    "material": "80% cotton, 20% polyester, fleece interior"
   },
   {
     "category": "Apparel",
@@ -60,7 +153,22 @@
     "description": "Slim-fit jeans in 12oz selvedge-style denim with a touch of stretch. Dark indigo wash, five-pocket styling, and a mid rise. Machine wash cold, inside out.",
     "price": 79.0,
     "currency": "USD",
-    "stock_qty": 32
+    "stock_qty": 32,
+    "colors": [
+      "Dark Indigo"
+    ],
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36",
+      "38",
+      "40"
+    ],
+    "dimensions": "Inseam 32 in",
+    "weight": "22 oz",
+    "material": "98% cotton, 2% elastane"
   },
   {
     "category": "Apparel",
@@ -69,7 +177,21 @@
     "description": "Knee-length overcoat in a 70% wool, 30% recycled polyester blend. Fully lined, notch lapel, two inner pockets. Dry clean only.",
     "price": 189.0,
     "currency": "USD",
-    "stock_qty": 101
+    "stock_qty": 101,
+    "colors": [
+      "Charcoal",
+      "Camel",
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "dimensions": "Body length 40 in (size M)",
+    "weight": "3.4 lbs",
+    "material": "70% wool, 30% recycled polyester"
   },
   {
     "category": "Apparel",
@@ -78,7 +200,22 @@
     "description": "Lightweight 5-inch running shorts with a built-in liner, reflective trim, and a zippered back pocket. Quick-dry recycled polyester fabric.",
     "price": 34.0,
     "currency": "USD",
-    "stock_qty": 22
+    "stock_qty": 22,
+    "colors": [
+      "Black",
+      "Navy",
+      "Red"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "dimensions": "5 in inseam",
+    "weight": "3 oz",
+    "material": "Recycled polyester"
   },
   {
     "category": "Apparel",
@@ -87,7 +224,22 @@
     "description": "Midi dress in washed European linen with a square neckline, adjustable shoulder ties, and side pockets. Breathable and relaxed through the body.",
     "price": 84.0,
     "currency": "USD",
-    "stock_qty": 137
+    "stock_qty": 137,
+    "colors": [
+      "Natural",
+      "Terracotta",
+      "Sage"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "dimensions": "Length 46 in (size M)",
+    "weight": "11 oz",
+    "material": "100% washed European linen"
   },
   {
     "category": "Electronics",
@@ -96,7 +248,16 @@
     "description": "True wireless earbuds with Bluetooth 5.4, 8 hours of playback and 24 more from the charging case. IPX5 sweat resistance and three sizes of silicone tips.",
     "price": 79.0,
     "currency": "USD",
-    "stock_qty": 62
+    "stock_qty": 62,
+    "colors": [
+      "Black",
+      "White",
+      "Midnight Blue"
+    ],
+    "sizes": [],
+    "dimensions": "Case 2.4 x 1.9 x 1.1 in",
+    "weight": "0.2 lbs (case and buds)",
+    "material": "Plastic, silicone tips (S, M, L)"
   },
   {
     "category": "Electronics",
@@ -105,7 +266,14 @@
     "description": "27-inch IPS display with 3840x2160 resolution, 99% sRGB coverage, and a 60Hz refresh rate. USB-C input with 65W power delivery, height-adjustable stand.",
     "price": 349.0,
     "currency": "USD",
-    "stock_qty": 2
+    "stock_qty": 2,
+    "colors": [
+      "Black"
+    ],
+    "sizes": [],
+    "dimensions": "24.1 x 21.2 x 7.9 in with stand",
+    "weight": "13.2 lbs",
+    "material": "Plastic and aluminum"
   },
   {
     "category": "Electronics",
@@ -114,7 +282,19 @@
     "description": "Slim tracker with continuous heart rate, SpO2 and sleep tracking. 10-day battery life, 5ATM water resistance, and built-in GPS for runs and rides.",
     "price": 99.0,
     "currency": "USD",
-    "stock_qty": 30
+    "stock_qty": 30,
+    "colors": [
+      "Black",
+      "Silver",
+      "Coral"
+    ],
+    "sizes": [
+      "S/M",
+      "M/L"
+    ],
+    "dimensions": "Case 1.7 x 1.1 x 0.4 in",
+    "weight": "0.9 oz",
+    "material": "Aluminum case, silicone band"
   },
   {
     "category": "Electronics",
@@ -123,7 +303,15 @@
     "description": "20,000mAh battery pack with two USB-C ports and one USB-A port. 30W fast charging, and a digital display showing remaining charge. Airline carry-on approved.",
     "price": 45.0,
     "currency": "USD",
-    "stock_qty": 119
+    "stock_qty": 119,
+    "colors": [
+      "Black",
+      "White"
+    ],
+    "sizes": [],
+    "dimensions": "6.2 x 2.9 x 0.9 in",
+    "weight": "13 oz",
+    "material": "Aluminum alloy"
   },
   {
     "category": "Electronics",
@@ -132,7 +320,15 @@
     "description": "Tenkeyless mechanical keyboard with hot-swappable linear switches, PBT keycaps, and per-key white backlighting. Wired USB-C, 1.8m braided cable.",
     "price": 109.0,
     "currency": "USD",
-    "stock_qty": 115
+    "stock_qty": 115,
+    "colors": [
+      "Black",
+      "White"
+    ],
+    "sizes": [],
+    "dimensions": "14.2 x 5.4 x 1.5 in",
+    "weight": "1.9 lbs",
+    "material": "ABS case, PBT keycaps"
   },
   {
     "category": "Electronics",
@@ -141,7 +337,15 @@
     "description": "Vertical ergonomic mouse that keeps the wrist in a handshake position. Bluetooth or 2.4GHz receiver, adjustable 800 to 3200 DPI, and up to 6 months on one AA battery.",
     "price": 49.0,
     "currency": "USD",
-    "stock_qty": 25
+    "stock_qty": 25,
+    "colors": [
+      "Black",
+      "Graphite"
+    ],
+    "sizes": [],
+    "dimensions": "4.8 x 3.2 x 2.9 in",
+    "weight": "4.6 oz (without battery)",
+    "material": "Matte ABS plastic"
   },
   {
     "category": "Electronics",
@@ -150,7 +354,16 @@
     "description": "Portable speaker with 360-degree sound, 12 hours of playtime, and IP67 dust and water resistance. Pair two speakers for stereo. USB-C charging.",
     "price": 69.0,
     "currency": "USD",
-    "stock_qty": 69
+    "stock_qty": 69,
+    "colors": [
+      "Black",
+      "Blue",
+      "Sand"
+    ],
+    "sizes": [],
+    "dimensions": "7.3 x 3.1 in (cylinder)",
+    "weight": "1.4 lbs",
+    "material": "Fabric and rubber"
   },
   {
     "category": "Electronics",
@@ -159,7 +372,15 @@
     "description": "Compact gallium nitride wall charger with two USB-C ports and one USB-A. Charges a laptop and phone at once. Foldable plug, 1.5m cable included.",
     "price": 39.0,
     "currency": "USD",
-    "stock_qty": 31
+    "stock_qty": 31,
+    "colors": [
+      "White",
+      "Black"
+    ],
+    "sizes": [],
+    "dimensions": "2.5 x 2.5 x 1.1 in",
+    "weight": "5.6 oz",
+    "material": "Polycarbonate"
   },
   {
     "category": "Electronics",
@@ -168,7 +389,14 @@
     "description": "Indoor Wi-Fi camera with 1080p video, night vision to 8 metres, two-way audio, and person detection. Works with microSD storage up to 256GB.",
     "price": 59.0,
     "currency": "USD",
-    "stock_qty": 149
+    "stock_qty": 149,
+    "colors": [
+      "White"
+    ],
+    "sizes": [],
+    "dimensions": "3.7 x 2.6 x 2.6 in",
+    "weight": "6.8 oz",
+    "material": "ABS plastic"
   },
   {
     "category": "Electronics",
@@ -177,7 +405,16 @@
     "description": "Over-ear Bluetooth headphones with hybrid active noise cancellation, 40-hour battery, multipoint pairing, and a foldable design with a hard carry case.",
     "price": 199.0,
     "currency": "USD",
-    "stock_qty": 0
+    "stock_qty": 0,
+    "colors": [
+      "Black",
+      "Silver",
+      "Navy"
+    ],
+    "sizes": [],
+    "dimensions": "Folded 8.1 x 6.5 x 3.2 in",
+    "weight": "9.9 oz",
+    "material": "Protein leather ear cushions, ABS"
   },
   {
     "category": "Home",
@@ -186,7 +423,19 @@
     "description": "Queen duvet cover and two pillowcases in stonewashed 100% French flax linen. Button closure with corner ties. Softens with every wash. Machine washable.",
     "price": 149.0,
     "currency": "USD",
-    "stock_qty": 23
+    "stock_qty": 23,
+    "colors": [
+      "Natural",
+      "White",
+      "Slate Grey",
+      "Sage"
+    ],
+    "sizes": [
+      "Queen"
+    ],
+    "dimensions": "Duvet cover 90 x 90 in, pillowcases 20 x 30 in",
+    "weight": "4.2 lbs",
+    "material": "100% French flax linen"
   },
   {
     "category": "Home",
@@ -195,7 +444,14 @@
     "description": "Contoured memory foam pillow with a cooling gel layer and a removable bamboo-blend cover. Medium-firm support for back and side sleepers.",
     "price": 44.0,
     "currency": "USD",
-    "stock_qty": 39
+    "stock_qty": 39,
+    "colors": [
+      "White"
+    ],
+    "sizes": [],
+    "dimensions": "24 x 16 x 5 in",
+    "weight": "2.6 lbs",
+    "material": "Memory foam, bamboo-blend cover"
   },
   {
     "category": "Home",
@@ -204,7 +460,14 @@
     "description": "Hand-glazed ceramic base in speckled cream with a linen drum shade. Uses a standard E26 bulb up to 60W (bulb not included). Inline rotary switch.",
     "price": 64.0,
     "currency": "USD",
-    "stock_qty": 65
+    "stock_qty": 65,
+    "colors": [
+      "Speckled Cream"
+    ],
+    "sizes": [],
+    "dimensions": "Height 22 in, shade 14 in diameter",
+    "weight": "4.8 lbs",
+    "material": "Glazed ceramic, linen shade"
   },
   {
     "category": "Home",
@@ -213,7 +476,16 @@
     "description": "Textured 50 by 60 inch throw in a chunky cotton weave with tasselled edges. Machine washable, available in oatmeal, sage and charcoal.",
     "price": 52.0,
     "currency": "USD",
-    "stock_qty": 23
+    "stock_qty": 23,
+    "colors": [
+      "Oatmeal",
+      "Sage",
+      "Charcoal"
+    ],
+    "sizes": [],
+    "dimensions": "50 x 60 in",
+    "weight": "2.2 lbs",
+    "material": "100% cotton"
   },
   {
     "category": "Home",
@@ -222,7 +494,15 @@
     "description": "Robot vacuum with 3000Pa suction, gyroscope navigation, and a 150-minute runtime. Self-docks to recharge, handles hard floors and low-pile carpet, app and voice control.",
     "price": 249.0,
     "currency": "USD",
-    "stock_qty": 3
+    "stock_qty": 3,
+    "colors": [
+      "Black",
+      "White"
+    ],
+    "sizes": [],
+    "dimensions": "13.8 in diameter x 3.5 in high",
+    "weight": "6.2 lbs",
+    "material": "ABS plastic"
   },
   {
     "category": "Home",
@@ -231,7 +511,16 @@
     "description": "Set of two bath towels and two hand towels woven from viscose from bamboo. Absorbent, naturally antibacterial, and gentle on sensitive skin.",
     "price": 58.0,
     "currency": "USD",
-    "stock_qty": 20
+    "stock_qty": 20,
+    "colors": [
+      "White",
+      "Grey",
+      "Sand"
+    ],
+    "sizes": [],
+    "dimensions": "Bath towel 27 x 54 in, hand towel 16 x 28 in",
+    "weight": "4.5 lbs (set)",
+    "material": "Viscose from bamboo"
   },
   {
     "category": "Home",
@@ -240,7 +529,14 @@
     "description": "Hand-poured soy wax candle in a reusable amber glass jar. Cedar and bergamot scent with a cotton wick and roughly 45 hours of burn time.",
     "price": 24.0,
     "currency": "USD",
-    "stock_qty": 64
+    "stock_qty": 64,
+    "colors": [
+      "Amber"
+    ],
+    "sizes": [],
+    "dimensions": "3.5 in diameter x 4 in high",
+    "weight": "10 oz",
+    "material": "Soy wax, glass jar"
   },
   {
     "category": "Home",
@@ -249,7 +545,20 @@
     "description": "Set of three solid pine floating shelves in 16, 24 and 36 inch lengths. Hidden bracket mounting hardware included, each rated for 25 lbs.",
     "price": 38.0,
     "currency": "USD",
-    "stock_qty": 19
+    "stock_qty": 19,
+    "colors": [
+      "Natural Pine",
+      "Walnut Stain",
+      "White"
+    ],
+    "sizes": [
+      "16 in",
+      "24 in",
+      "36 in"
+    ],
+    "dimensions": "Depth 6 in, thickness 1.5 in",
+    "weight": "7.5 lbs (set)",
+    "material": "Solid pine"
   },
   {
     "category": "Home",
@@ -258,7 +567,17 @@
     "description": "Pair of thermal blackout curtains, 52 by 84 inches each, with grommet tops. Blocks 99% of light and reduces outside noise. Machine washable.",
     "price": 49.0,
     "currency": "USD",
-    "stock_qty": 150
+    "stock_qty": 150,
+    "colors": [
+      "Black",
+      "Charcoal",
+      "Navy",
+      "Cream"
+    ],
+    "sizes": [],
+    "dimensions": "52 x 84 in per panel",
+    "weight": "4.4 lbs (pair)",
+    "material": "Thermal polyester"
   },
   {
     "category": "Home",
@@ -267,7 +586,15 @@
     "description": "4 litre cool-mist humidifier with a quiet ultrasonic mechanism, 30-hour runtime, auto shut-off and a top-fill design that is easy to clean.",
     "price": 59.0,
     "currency": "USD",
-    "stock_qty": 42
+    "stock_qty": 42,
+    "colors": [
+      "White",
+      "Grey"
+    ],
+    "sizes": [],
+    "dimensions": "8 x 8 x 12 in",
+    "weight": "2.4 lbs",
+    "material": "ABS plastic"
   },
   {
     "category": "Outdoors",
@@ -276,7 +603,15 @@
     "description": "Freestanding double-wall tent weighing 3.4 lbs. Two doors, two vestibules, and a rainfly rated to 3000mm. Pitches in under five minutes with colour-coded poles.",
     "price": 219.0,
     "currency": "USD",
-    "stock_qty": 82
+    "stock_qty": 82,
+    "colors": [
+      "Forest Green",
+      "Orange"
+    ],
+    "sizes": [],
+    "dimensions": "Packed 18 x 6 in; floor 84 x 52 in; peak height 40 in",
+    "weight": "3.4 lbs",
+    "material": "20D ripstop nylon, aluminum poles"
   },
   {
     "category": "Outdoors",
@@ -285,7 +620,19 @@
     "description": "Double-wall vacuum insulated stainless steel bottle. Keeps drinks cold 24 hours or hot 12 hours. Leak-proof lid, powder-coated grip, fits most cup holders.",
     "price": 29.0,
     "currency": "USD",
-    "stock_qty": 115
+    "stock_qty": 115,
+    "colors": [
+      "Black",
+      "Navy",
+      "Sage",
+      "Cream"
+    ],
+    "sizes": [
+      "32 oz"
+    ],
+    "dimensions": "Height 10.6 in, diameter 3.6 in",
+    "weight": "13 oz",
+    "material": "18/8 stainless steel"
   },
   {
     "category": "Outdoors",
@@ -294,7 +641,17 @@
     "description": "Collapsible carbon-fibre poles with cork grips, quick-lock adjustment, and carbide tips. Weigh 16oz per pair and fold down to 15 inches.",
     "price": 69.0,
     "currency": "USD",
-    "stock_qty": 44
+    "stock_qty": 44,
+    "colors": [
+      "Black",
+      "Orange"
+    ],
+    "sizes": [
+      "Adjustable 24-55 in"
+    ],
+    "dimensions": "Folded 15 in",
+    "weight": "16 oz (pair)",
+    "material": "Carbon fibre, cork grips"
   },
   {
     "category": "Outdoors",
@@ -303,7 +660,18 @@
     "description": "Mummy bag filled with 650-fill water-resistant down, rated to 20 degrees Fahrenheit. Draft collar, anti-snag zipper, and a compression sack included.",
     "price": 199.0,
     "currency": "USD",
-    "stock_qty": 0
+    "stock_qty": 0,
+    "colors": [
+      "Red",
+      "Blue"
+    ],
+    "sizes": [
+      "Regular (fits to 6 ft)",
+      "Long (fits to 6 ft 6 in)"
+    ],
+    "dimensions": "Packed 15 x 9 in; length 78 in (regular)",
+    "weight": "2.1 lbs",
+    "material": "20D nylon, 650-fill water-resistant down"
   },
   {
     "category": "Outdoors",
@@ -312,7 +680,19 @@
     "description": "Ventilated back panel with an adjustable torso length and padded hip belt. Rain cover, hydration sleeve, and trekking pole loops. Fits most airline overhead bins.",
     "price": 129.0,
     "currency": "USD",
-    "stock_qty": 38
+    "stock_qty": 38,
+    "colors": [
+      "Black",
+      "Olive",
+      "Blue"
+    ],
+    "sizes": [
+      "S/M torso",
+      "M/L torso"
+    ],
+    "dimensions": "22 x 12 x 9 in",
+    "weight": "2.8 lbs",
+    "material": "Ripstop nylon"
   },
   {
     "category": "Outdoors",
@@ -321,7 +701,15 @@
     "description": "400-lumen headlamp with white and red light modes, USB-C charging, and an IPX6 rating. Tilting beam and a battery that lasts up to 40 hours on low.",
     "price": 34.0,
     "currency": "USD",
-    "stock_qty": 86
+    "stock_qty": 86,
+    "colors": [
+      "Black",
+      "Orange"
+    ],
+    "sizes": [],
+    "dimensions": "2.3 x 1.8 x 1.2 in",
+    "weight": "2.9 oz (with battery)",
+    "material": "ABS plastic"
   },
   {
     "category": "Outdoors",
@@ -330,7 +718,14 @@
     "description": "Canister stove that boils a litre of water in about three minutes. Folding pot supports, piezo igniter, and a total weight of 3.9oz. Canister sold separately.",
     "price": 49.0,
     "currency": "USD",
-    "stock_qty": 54
+    "stock_qty": 54,
+    "colors": [
+      "Silver"
+    ],
+    "sizes": [],
+    "dimensions": "Folded 4.0 x 2.0 in",
+    "weight": "3.9 oz",
+    "material": "Stainless steel and aluminum"
   },
   {
     "category": "Outdoors",
@@ -339,7 +734,16 @@
     "description": "Lightweight folding chair with a steel frame, breathable mesh back, and cup holder. Supports up to 250 lbs and packs into a carry bag.",
     "price": 45.0,
     "currency": "USD",
-    "stock_qty": 34
+    "stock_qty": 34,
+    "colors": [
+      "Black",
+      "Olive",
+      "Navy"
+    ],
+    "sizes": [],
+    "dimensions": "Open 20 x 20 x 31 in; packed 4 x 4 x 20 in",
+    "weight": "2.1 lbs",
+    "material": "Steel frame, polyester mesh"
   },
   {
     "category": "Outdoors",
@@ -348,7 +752,19 @@
     "description": "Roll-top dry bag in welded 500D PVC-free fabric that keeps gear dry when fully submerged. Adjustable shoulder strap and a clear window.",
     "price": 22.0,
     "currency": "USD",
-    "stock_qty": 56
+    "stock_qty": 56,
+    "colors": [
+      "Yellow",
+      "Orange",
+      "Black"
+    ],
+    "sizes": [
+      "10L",
+      "20L"
+    ],
+    "dimensions": "Rolled 8 x 8 in; open 20 x 11 in (20L)",
+    "weight": "6 oz",
+    "material": "Welded 500D PVC-free fabric"
   },
   {
     "category": "Outdoors",
@@ -357,7 +773,16 @@
     "description": "Double parachute-nylon hammock that holds 400 lbs. Includes two tree-friendly straps and carabiners, and packs to the size of a grapefruit.",
     "price": 39.0,
     "currency": "USD",
-    "stock_qty": 103
+    "stock_qty": 103,
+    "colors": [
+      "Forest Green",
+      "Blue",
+      "Orange"
+    ],
+    "sizes": [],
+    "dimensions": "Open 118 x 78 in; packed 6 x 6 in",
+    "weight": "1.2 lbs (with straps)",
+    "material": "Parachute nylon"
   },
   {
     "category": "Beauty",
@@ -366,7 +791,14 @@
     "description": "15% L-ascorbic acid serum with vitamin E and ferulic acid to brighten dull skin and soften the look of dark spots. Fragrance-free, dermatologist tested.",
     "price": 38.0,
     "currency": "USD",
-    "stock_qty": 32
+    "stock_qty": 32,
+    "colors": [],
+    "sizes": [
+      "30 ml"
+    ],
+    "dimensions": "1.4 x 1.4 x 4.3 in bottle",
+    "weight": "3.2 oz",
+    "material": "Glass dropper bottle"
   },
   {
     "category": "Beauty",
@@ -375,7 +807,14 @@
     "description": "Lightweight face moisturizer with hyaluronic acid and broad spectrum SPF 30. Absorbs without white cast and wears well under makeup. 50ml.",
     "price": 28.0,
     "currency": "USD",
-    "stock_qty": 148
+    "stock_qty": 148,
+    "colors": [],
+    "sizes": [
+      "50 ml"
+    ],
+    "dimensions": "1.8 x 1.8 x 4.1 in",
+    "weight": "3.5 oz",
+    "material": "Airless pump bottle"
   },
   {
     "category": "Beauty",
@@ -384,7 +823,14 @@
     "description": "Sulfate-free daily face wash with ceramides and green tea extract. Removes oil and sunscreen without stripping skin. Suitable for sensitive skin. 150ml.",
     "price": 18.0,
     "currency": "USD",
-    "stock_qty": 24
+    "stock_qty": 24,
+    "colors": [],
+    "sizes": [
+      "150 ml"
+    ],
+    "dimensions": "2 x 2 x 6.3 in",
+    "weight": "6.1 oz",
+    "material": "Recycled plastic pump bottle"
   },
   {
     "category": "Beauty",
@@ -393,7 +839,14 @@
     "description": "0.3% encapsulated retinol cream with peptides and squalane to reduce fine lines overnight. Use at night only and follow with daily sunscreen. 50ml.",
     "price": 46.0,
     "currency": "USD",
-    "stock_qty": 0
+    "stock_qty": 0,
+    "colors": [],
+    "sizes": [
+      "50 ml"
+    ],
+    "dimensions": "2.4 x 2.4 x 2.2 in jar",
+    "weight": "4.4 oz",
+    "material": "Frosted glass jar"
   },
   {
     "category": "Beauty",
@@ -402,7 +855,14 @@
     "description": "Zinc oxide sunscreen that is reef-safe and water resistant for 80 minutes. Sheer finish for all skin tones, fragrance-free. 90ml tube.",
     "price": 24.0,
     "currency": "USD",
-    "stock_qty": 60
+    "stock_qty": 60,
+    "colors": [],
+    "sizes": [
+      "90 ml"
+    ],
+    "dimensions": "1.6 x 0.9 x 6.3 in tube",
+    "weight": "3.6 oz",
+    "material": "Recyclable tube"
   },
   {
     "category": "Beauty",
@@ -411,7 +871,14 @@
     "description": "Deep conditioning mask with Moroccan argan oil and shea butter for dry or colour-treated hair. Leave on for five minutes. 200ml jar.",
     "price": 26.0,
     "currency": "USD",
-    "stock_qty": 135
+    "stock_qty": 135,
+    "colors": [],
+    "sizes": [
+      "200 ml"
+    ],
+    "dimensions": "3.2 x 3.2 x 3.5 in jar",
+    "weight": "8.2 oz",
+    "material": "Recyclable plastic jar"
   },
   {
     "category": "Beauty",
@@ -420,7 +887,27 @@
     "description": "Long-wear liquid lipstick with a comfortable matte finish that lasts up to 8 hours. Vegan and cruelty-free, available in 12 shades.",
     "price": 19.0,
     "currency": "USD",
-    "stock_qty": 144
+    "stock_qty": 144,
+    "colors": [
+      "Nude",
+      "Rose",
+      "Berry",
+      "Mauve",
+      "Coral",
+      "Classic Red",
+      "Brick",
+      "Plum",
+      "Pink",
+      "Cocoa",
+      "Wine",
+      "Burgundy"
+    ],
+    "sizes": [
+      "Standard 5 ml"
+    ],
+    "dimensions": "0.8 x 0.8 x 4.1 in",
+    "weight": "0.9 oz",
+    "material": "Plastic tube with doe-foot applicator"
   },
   {
     "category": "Beauty",
@@ -429,7 +916,14 @@
     "description": "Purifying mask with bentonite clay and activated charcoal to draw out impurities and minimise the look of pores. Use once or twice a week. 100ml.",
     "price": 22.0,
     "currency": "USD",
-    "stock_qty": 117
+    "stock_qty": 117,
+    "colors": [],
+    "sizes": [
+      "100 ml"
+    ],
+    "dimensions": "2.6 x 2.6 x 3.3 in jar",
+    "weight": "5.4 oz",
+    "material": "Glass jar"
   },
   {
     "category": "Beauty",
@@ -438,7 +932,14 @@
     "description": "Kit with beard oil, balm, a boar bristle brush and a wooden comb in a gift tin. Sandalwood scent. Softens and tames beards of any length.",
     "price": 35.0,
     "currency": "USD",
-    "stock_qty": 88
+    "stock_qty": 88,
+    "colors": [
+      "Sandalwood scent"
+    ],
+    "sizes": [],
+    "dimensions": "Tin 5.5 x 4.3 x 2.0 in",
+    "weight": "14 oz",
+    "material": "Natural oils, boar bristle, wood"
   },
   {
     "category": "Beauty",
@@ -447,7 +948,14 @@
     "description": "Alcohol-free toner mist made from steam-distilled Bulgarian rose water. Refreshes skin through the day and works over makeup. 100ml spray bottle.",
     "price": 16.0,
     "currency": "USD",
-    "stock_qty": 127
+    "stock_qty": 127,
+    "colors": [],
+    "sizes": [
+      "100 ml"
+    ],
+    "dimensions": "1.6 x 1.6 x 6.1 in",
+    "weight": "4.2 oz",
+    "material": "Glass bottle with fine-mist sprayer"
   },
   {
     "category": "Kids",
@@ -456,7 +964,14 @@
     "description": "100 smooth beech wood blocks in assorted shapes and colours, finished with non-toxic water-based paint. Comes in a cotton storage bag. Ages 2 and up.",
     "price": 34.0,
     "currency": "USD",
-    "stock_qty": 124
+    "stock_qty": 124,
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [],
+    "dimensions": "Bag 10 x 8 in; blocks 1 to 2 in",
+    "weight": "3.2 lbs",
+    "material": "Beech wood, water-based paint"
   },
   {
     "category": "Kids",
@@ -465,7 +980,17 @@
     "description": "Insulated lunch bag with a leak-proof liner and a front pocket for utensils. Wipes clean and keeps food cool for up to four hours. Fits a standard bento box.",
     "price": 22.0,
     "currency": "USD",
-    "stock_qty": 100
+    "stock_qty": 100,
+    "colors": [
+      "Blue",
+      "Pink",
+      "Green",
+      "Grey"
+    ],
+    "sizes": [],
+    "dimensions": "9 x 7 x 4 in",
+    "weight": "9 oz",
+    "material": "Recycled polyester, PEVA liner"
   },
   {
     "category": "Kids",
@@ -474,7 +999,24 @@
     "description": "Flexible natural rubber boots with a cotton lining, easy-pull handles and a non-slip tread. Available in toddler sizes 5 to 10.",
     "price": 28.0,
     "currency": "USD",
-    "stock_qty": 84
+    "stock_qty": 84,
+    "colors": [
+      "Yellow",
+      "Red",
+      "Navy",
+      "Green"
+    ],
+    "sizes": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "dimensions": "Shaft height 7 in (size 8)",
+    "weight": "11 oz (pair)",
+    "material": "Natural rubber, cotton lining"
   },
   {
     "category": "Kids",
@@ -483,7 +1025,14 @@
     "description": "Hardcover collection of 20 short stories with full-page illustrations, written for read-aloud time. 192 pages. Recommended for ages 3 to 7.",
     "price": 19.0,
     "currency": "USD",
-    "stock_qty": 71
+    "stock_qty": 71,
+    "colors": [
+      "Multicolor cover"
+    ],
+    "sizes": [],
+    "dimensions": "9.5 x 7.5 x 1.1 in, 192 pages",
+    "weight": "1.9 lbs",
+    "material": "Hardcover, FSC-certified paper"
   },
   {
     "category": "Kids",
@@ -492,7 +1041,19 @@
     "description": "Lightweight 12-inch balance bike with a magnesium frame, air-free tyres and an adjustable seat. No pedals, so children learn balance first. Ages 2 to 5.",
     "price": 89.0,
     "currency": "USD",
-    "stock_qty": 54
+    "stock_qty": 54,
+    "colors": [
+      "Mint",
+      "Red",
+      "Yellow",
+      "Grey"
+    ],
+    "sizes": [
+      "12 in"
+    ],
+    "dimensions": "Length 33 in, seat height 11 to 15 in",
+    "weight": "6.5 lbs",
+    "material": "Magnesium frame, EVA tyres"
   },
   {
     "category": "Kids",
@@ -501,7 +1062,16 @@
     "description": "Mess-free drawing board with a magnetic pen and stamps. Slide the eraser bar to clear. Includes 13 by 10 inch board. Ages 3 and up.",
     "price": 24.0,
     "currency": "USD",
-    "stock_qty": 70
+    "stock_qty": 70,
+    "colors": [
+      "Blue",
+      "Pink",
+      "Green"
+    ],
+    "sizes": [],
+    "dimensions": "Board 13 x 10 in",
+    "weight": "1.1 lbs",
+    "material": "Plastic with magnetic panel"
   },
   {
     "category": "Kids",
@@ -510,7 +1080,19 @@
     "description": "12-litre backpack in water-resistant fabric with padded straps, a chest clip and reflective details. Fits a tablet and a water bottle. Ages 4 to 8.",
     "price": 36.0,
     "currency": "USD",
-    "stock_qty": 28
+    "stock_qty": 28,
+    "colors": [
+      "Navy",
+      "Green",
+      "Pink",
+      "Orange"
+    ],
+    "sizes": [
+      "12 L"
+    ],
+    "dimensions": "13 x 9 x 5 in",
+    "weight": "11 oz",
+    "material": "Water-resistant polyester"
   },
   {
     "category": "Kids",
@@ -519,7 +1101,16 @@
     "description": "Super-soft 14-inch plush stegosaurus with embroidered eyes, filled with recycled polyester fibre. Machine washable. Suitable from birth.",
     "price": 21.0,
     "currency": "USD",
-    "stock_qty": 84
+    "stock_qty": 84,
+    "colors": [
+      "Green"
+    ],
+    "sizes": [
+      "14 in"
+    ],
+    "dimensions": "14 in long",
+    "weight": "7 oz",
+    "material": "Recycled polyester plush"
   },
   {
     "category": "Kids",
@@ -528,7 +1119,14 @@
     "description": "Build-your-own robot kit with 190 parts, a motor, and a programmable remote. Teaches basic circuits and mechanics. Batteries not included. Ages 8 and up.",
     "price": 59.0,
     "currency": "USD",
-    "stock_qty": 142
+    "stock_qty": 142,
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [],
+    "dimensions": "Box 12 x 9 x 3 in; robot approx. 8 in tall",
+    "weight": "1.6 lbs",
+    "material": "ABS plastic, electronic components"
   },
   {
     "category": "Kids",
@@ -537,7 +1135,17 @@
     "description": "Soft cotton-flannel sleeping bag with a dinosaur print, rated for indoor sleepovers. Zips fully open and packs into a drawstring sack. Ages 3 to 10.",
     "price": 42.0,
     "currency": "USD",
-    "stock_qty": 134
+    "stock_qty": 134,
+    "colors": [
+      "Dino Green",
+      "Dino Blue"
+    ],
+    "sizes": [
+      "Kids 3-10 yrs"
+    ],
+    "dimensions": "Length 55 in, width 25 in",
+    "weight": "1.6 lbs",
+    "material": "Cotton flannel"
   },
   {
     "category": "Pets",
@@ -546,7 +1154,18 @@
     "description": "Large 36 by 27 inch dog bed with a 4-inch orthopedic memory foam base for joint support and a removable, machine washable cover. Non-slip bottom.",
     "price": 79.0,
     "currency": "USD",
-    "stock_qty": 95
+    "stock_qty": 95,
+    "colors": [
+      "Grey",
+      "Charcoal",
+      "Tan"
+    ],
+    "sizes": [
+      "Large"
+    ],
+    "dimensions": "36 x 27 x 4 in",
+    "weight": "6.5 lbs",
+    "material": "Memory foam, polyester cover"
   },
   {
     "category": "Pets",
@@ -555,7 +1174,14 @@
     "description": "Telescoping wand with a swivel hook and three replaceable feather and bell attachments. Encourages exercise and play. 40 inches fully extended.",
     "price": 12.0,
     "currency": "USD",
-    "stock_qty": 122
+    "stock_qty": 122,
+    "colors": [
+      "Assorted"
+    ],
+    "sizes": [],
+    "dimensions": "Extended 40 in",
+    "weight": "2.4 oz",
+    "material": "Fibreglass wand, feathers"
   },
   {
     "category": "Pets",
@@ -564,7 +1190,22 @@
     "description": "Padded, adjustable harness with a front clip to discourage pulling. Reflective stitching, breathable mesh, and a sturdy handle for control. Sizes S to XL.",
     "price": 32.0,
     "currency": "USD",
-    "stock_qty": 81
+    "stock_qty": 81,
+    "colors": [
+      "Black",
+      "Red",
+      "Blue",
+      "Orange"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "dimensions": "Chest girth 16 to 38 in (S to XL)",
+    "weight": "9 oz (size M)",
+    "material": "Breathable nylon mesh"
   },
   {
     "category": "Pets",
@@ -573,7 +1214,17 @@
     "description": "4 litre programmable feeder with up to six meals per day, portion control, and a backup battery. Dishwasher-safe stainless steel bowl.",
     "price": 69.0,
     "currency": "USD",
-    "stock_qty": 26
+    "stock_qty": 26,
+    "colors": [
+      "White",
+      "Grey"
+    ],
+    "sizes": [
+      "4 L"
+    ],
+    "dimensions": "6.7 x 9.8 x 13.2 in",
+    "weight": "3.4 lbs",
+    "material": "ABS plastic, stainless steel bowl"
   },
   {
     "category": "Pets",
@@ -582,7 +1233,16 @@
     "description": "Set of two 24oz stainless steel bowls with non-slip silicone bases. Dishwasher safe and rust resistant. Suitable for cats and small dogs.",
     "price": 19.0,
     "currency": "USD",
-    "stock_qty": 38
+    "stock_qty": 38,
+    "colors": [
+      "Silver"
+    ],
+    "sizes": [
+      "24 oz (set of 2)"
+    ],
+    "dimensions": "Each bowl 6 in diameter x 2 in high",
+    "weight": "1.1 lbs (set)",
+    "material": "Stainless steel, silicone base"
   },
   {
     "category": "Pets",
@@ -591,7 +1251,15 @@
     "description": "32-inch sisal-wrapped scratching post with a plush perch on top and a stable weighted base. Easy tool-free assembly.",
     "price": 38.0,
     "currency": "USD",
-    "stock_qty": 139
+    "stock_qty": 139,
+    "colors": [
+      "Beige",
+      "Grey"
+    ],
+    "sizes": [],
+    "dimensions": "32 in tall, 16 x 16 in base",
+    "weight": "7.7 lbs",
+    "material": "Sisal rope, plush fabric"
   },
   {
     "category": "Pets",
@@ -600,7 +1268,18 @@
     "description": "5-metre retractable leash for dogs up to 50 lbs. One-handed brake and lock, anti-slip handle, and tangle-free tape.",
     "price": 24.0,
     "currency": "USD",
-    "stock_qty": 115
+    "stock_qty": 115,
+    "colors": [
+      "Black",
+      "Blue",
+      "Red"
+    ],
+    "sizes": [
+      "5 m"
+    ],
+    "dimensions": "4.7 x 3.1 x 1.8 in",
+    "weight": "7 oz",
+    "material": "ABS plastic, nylon tape"
   },
   {
     "category": "Pets",
@@ -609,7 +1288,14 @@
     "description": "Oven-baked grain-free training treats made with real chicken and sweet potato. No artificial colours or preservatives. 12oz resealable bag.",
     "price": 16.0,
     "currency": "USD",
-    "stock_qty": 50
+    "stock_qty": 50,
+    "colors": [],
+    "sizes": [
+      "12 oz"
+    ],
+    "dimensions": "Bag 8 x 5 x 2 in",
+    "weight": "12 oz",
+    "material": "Chicken and sweet potato"
   },
   {
     "category": "Pets",
@@ -618,7 +1304,19 @@
     "description": "Slicker brush with fine bent bristles that remove loose fur and tangles. Press the button to retract the bristles and release the hair. Cats and dogs.",
     "price": 18.0,
     "currency": "USD",
-    "stock_qty": 95
+    "stock_qty": 95,
+    "colors": [
+      "Blue",
+      "Pink",
+      "Grey"
+    ],
+    "sizes": [
+      "Small",
+      "Large"
+    ],
+    "dimensions": "Large head 4.3 x 3.9 in, handle 5.5 in",
+    "weight": "5 oz",
+    "material": "Stainless steel bristles"
   },
   {
     "category": "Pets",
@@ -627,6 +1325,14 @@
     "description": "Collapsible three-way crinkle tunnel with a hanging toy ball and peek holes. Folds flat for storage. Tunnel is 10 inches in diameter.",
     "price": 27.0,
     "currency": "USD",
-    "stock_qty": 46
+    "stock_qty": 46,
+    "colors": [
+      "Grey",
+      "Purple"
+    ],
+    "sizes": [],
+    "dimensions": "Extended 35 in long, 10 in diameter",
+    "weight": "8 oz",
+    "material": "Crinkle polyester"
   }
 ]

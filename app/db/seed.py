@@ -30,6 +30,11 @@ def load_fixtures(session: Session) -> bool:
             currency=p["currency"],
             stock_qty=p["stock_qty"],
             sku=p["sku"],
+            colors=p["colors"],
+            sizes=p["sizes"],
+            dimensions=p["dimensions"],
+            weight=p["weight"],
+            material=p["material"],
         )
         for p in read("products")
     }

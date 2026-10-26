@@ -1,7 +1,7 @@
 from datetime import UTC, datetime
 from enum import StrEnum
 
-from sqlalchemy import ForeignKey
+from sqlalchemy import JSON, ForeignKey
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 
 
@@ -52,6 +52,11 @@ class Product(Base):
     currency: Mapped[str] = mapped_column(default="USD")
     stock_qty: Mapped[int] = mapped_column(default=0)
     sku: Mapped[str] = mapped_column(unique=True)
+    colors: Mapped[list[str]] = mapped_column(JSON, default=list)
+    sizes: Mapped[list[str]] = mapped_column(JSON, default=list)
+    dimensions: Mapped[str | None] = mapped_column(default=None)
+    weight: Mapped[str | None] = mapped_column(default=None)
+    material: Mapped[str | None] = mapped_column(default=None)
 
     category: Mapped[Category] = relationship(back_populates="products")
 

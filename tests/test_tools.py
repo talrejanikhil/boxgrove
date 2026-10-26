@@ -37,6 +37,15 @@ def test_product_lookup(tool_db: Session) -> None:
     assert "error" in catalog_tools.get_product_details.invoke({})
 
 
+def test_product_payload_has_variant_info(tool_db: Session) -> None:
+    jeans = catalog_tools.get_product_details.invoke({"query": "slim dark denim jeans"})["products"][0]
+    assert jeans["colors"] == ["Dark Indigo"]
+    assert "32" in jeans["sizes"]
+    assert jeans["dimensions"]
+    assert jeans["weight"]
+    assert jeans["material"]
+
+
 def test_inventory_and_recommendations(tool_db: Session) -> None:
     oos = tool_db.scalars(select(Product).where(Product.sku == "ELE-010")).one()
     assert catalog_tools.check_inventory.invoke({"product_id": oos.id})["stock_qty"] == 0

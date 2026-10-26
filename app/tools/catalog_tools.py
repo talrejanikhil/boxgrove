@@ -15,6 +15,11 @@ def product_payload(p: Product) -> dict:
         "price": p.price,
         "currency": p.currency,
         "in_stock": p.stock_qty > 0,
+        "colors": p.colors,
+        "sizes": p.sizes,
+        "dimensions": p.dimensions,
+        "weight": p.weight,
+        "material": p.material,
     }
 
 

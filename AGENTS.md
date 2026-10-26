@@ -22,7 +22,8 @@ Session history lives in `app/agent/memory.py`.
 - `app/db/` — models, session, seeding
 - `app/api/` — FastAPI routes and static chat UI
 - `prompts/` — Markdown prompts
-- `data/seed/` — fixtures; `data/docs/` — policy docs indexed into Qdrant
+- `data/seed/` — fixtures (products carry `colors`, `sizes`, `dimensions`, `weight`, `material`); 
+- `data/docs/` — policy docs indexed into Qdrant
 
 ## Rules
 
@@ -33,14 +34,13 @@ Session history lives in `app/agent/memory.py`.
 - Get OpenAI and Qdrant clients from `app/clients/`; do not construct your own.
 - Config via `app/config.py` (`.env`).
 - Minimal comments, type hints everywhere. Lint with `uv run ruff check`.
-- No observability or tracing code in `main`.
 
 ## Commands
 
 ```bash
 uv sync
 docker compose up -d
-uv run python -m app.db.seed
+uv run python -m app.db.seed   # no-op if seeded; to reseed: rm boxgrove.db, delete the Qdrant collection, rerun
 uv run uvicorn app.main:app --reload
 uv run pytest
 ```

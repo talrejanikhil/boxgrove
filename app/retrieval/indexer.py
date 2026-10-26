@@ -41,11 +41,22 @@ def policy_documents(docs_dir: Path = DOCS_DIR) -> list[Document]:
     return documents
 
 
+def specs_text(p: Product) -> str:
+    specs = {
+        "Colors": ", ".join(p.colors),
+        "Sizes": ", ".join(p.sizes),
+        "Dimensions": p.dimensions,
+        "Weight": p.weight,
+        "Material": p.material,
+    }
+    return "".join(f" {k}: {v}." for k, v in specs.items() if v)
+
+
 def product_documents(session: Session) -> list[Document]:
     return [
         Document(
             key=f"product:{p.id}",
-            text=f"{p.name} ({p.category.name}). {p.description}",
+            text=f"{p.name} ({p.category.name}). {p.description}{specs_text(p)}",
             payload={
                 "doc_type": "product",
                 "title": p.name,

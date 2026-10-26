@@ -1,6 +1,6 @@
 # Boxgrove
 
-Multicategory e-commerce chat agent. Running example for the book *Prompting LangSmith for LLMOps*. This branch (`main`) is the working app with no observability.
+Multicategory e-commerce chat agent. Running example for the book *Prompting LangSmith for LLMOps*.
 
 ## Prerequisites
 
@@ -15,6 +15,14 @@ Multicategory e-commerce chat agent. Running example for the book *Prompting Lan
 uv sync
 cp .env.example .env   # set OPENAI_API_KEY
 docker compose up -d   # Qdrant
+uv run python -m app.db.seed
+```
+
+Seeding is skipped once data exists. After editing `data/seed/` or the schema, reseed from scratch:
+
+```bash
+rm boxgrove.db
+curl -X DELETE localhost:6333/collections/boxgrove
 uv run python -m app.db.seed
 ```
 
@@ -34,4 +42,5 @@ uv run pytest
 
 ## Branches
 
-One branch per chapter, each building on the previous: `main` → `chapter_1` … `chapter_8`. Each is the answer key for its chapter.
+One branch per chapter, each building on the previous: `main` → `chapter_1` … `chapter_8`. Each is the answer key for
+its chapter.

@@ -29,6 +29,18 @@ def test_references_and_totals() -> None:
         assert order["total"] == round(sum(i["qty"] * i["unit_price"] for i in order["items"]), 2)
 
 
+def test_product_variant_fields() -> None:
+    for p in load("products"):
+        assert isinstance(p["colors"], list)
+        assert isinstance(p["sizes"], list), p["sku"]
+        assert p["dimensions"]
+        assert p["weight"]
+        assert p["material"], p["sku"]
+        if p["category"] == "Apparel":
+            assert p["colors"]
+            assert p["sizes"], p["sku"]
+
+
 def test_order_state_coverage() -> None:
     orders = load("orders")
     assert {o["status"] for o in orders} == {"processing", "shipped", "delivered", "returned"}
