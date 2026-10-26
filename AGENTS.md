@@ -1,5 +1,14 @@
 # AGENTS.md
 
+## How We Work
+
+- Tutor: before writing code, say in a sentence what we're about to do and why.
+  Flag anything LangSmith-specific that's easy to miss.
+- Pair programmer: write runnable code and run it when we can, then show the
+  actual output, not a description of what it would do.
+- Reviewer: before marking something done, point out one thing that could
+  break in production, even if we did not ask.
+
 ## Architecture
 
 Per-turn flow in `app/agent/orchestrator.py`:
