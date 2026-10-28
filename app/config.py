@@ -13,6 +13,7 @@ class Settings(BaseSettings):
     main_model: str = "gpt-6-luna"
     main_reasoning_effort: str = "none"
     intent_threshold: float = 0.65
+    intent_floor: float = 0.3
     max_tool_rounds: int = 6
     history_turns: int = 10
 

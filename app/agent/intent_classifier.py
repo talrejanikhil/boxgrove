@@ -1,7 +1,11 @@
+import logging
+
 from app.agent.schemas import Intent, IntentClassification, IntentClassificationRequest, IntentScore
 from app.clients.openai_client import get_openai
 from app.config import settings
 from app.prompts import render_prompt
+
+logger = logging.getLogger(__name__)
 
 
 def classify_intent(request: IntentClassificationRequest) -> IntentClassification:
@@ -17,11 +21,17 @@ def classify_intent(request: IntentClassificationRequest) -> IntentClassificatio
     ]
     decision = get_openai().decisions.create(model=settings.intent_model, input=messages, questions=questions)
 
-    scores = [
+    all_scores = [
         IntentScore(intent=Intent(answer.name), probability=answer.probability)
         for answer in decision.answers
-        if answer.type == "predicate" and answer.probability >= settings.intent_threshold
+        if answer.type == "predicate"
     ]
+    scores = [s for s in all_scores if s.probability >= settings.intent_threshold]
     if not scores:
-        scores = [IntentScore(intent=Intent.OFF_TOPIC_ESCALATE, probability=1.0)]
+        best = max(all_scores, key=lambda s: s.probability, default=None)
+        if best and best.probability >= settings.intent_floor:
+            scores = [best]
+        else:
+            scores = [IntentScore(intent=Intent.OFF_TOPIC_ESCALATE, probability=1.0)]
+        logger.warning("No intent cleared threshold; fell back to %s", scores[0].intent.value)
     return IntentClassification(intents=sorted(scores, key=lambda s: s.probability, reverse=True))

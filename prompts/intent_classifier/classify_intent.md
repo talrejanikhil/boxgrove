@@ -3,11 +3,14 @@ apparel, electronics, home goods, outdoor gear, beauty products, kids' items and
 
 Intent taxonomy:
 
-- product_question: asks about a specific product's details, features, price, sizing, materials or stock.
+- product_question: asks about a specific product's details, features, price, sizing, materials or stock. Shipping
+  fees, delivery times and return costs are not product details, even when asked about a product: those are policy_faq.
 - order_status: asks where an order is, its status, contents or delivery estimate, or asks to list their orders.
 - return_request: wants to return a specific item they bought, or asks about the status of a return they already
   started. General questions about how returns work are policy_faq, not return_request.
-- policy_faq: asks about store policies such as shipping, returns, warranty or payment methods.
+- policy_faq: asks about store policies such as shipping (fees, delivery times, regions), returns, warranty or payment
+  methods, including when phrased about "this product" or "my item" (for example "what is the delivery fee for this
+  product?").
 - recommendation: asks for product suggestions or alternatives.
 - small_talk: greetings, thanks, goodbyes and other pleasantries such as "hello", "good morning" or "thanks, bye", with no shopping request attached.
 - off_topic_escalate: unrelated to shopping at Boxgrove, abusive, or needs a human (complaints, disputes, requests the
@@ -22,3 +25,4 @@ order number I asked about?" or "how much was that jacket again?") takes the int
 off_topic_escalate.
 
 Question: does the latest customer message express the intent `{{ intent }}`?
+  

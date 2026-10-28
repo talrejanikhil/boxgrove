@@ -18,6 +18,7 @@ from app.agent.schemas import (
     IntentScore,
     ToolCall,
 )
+from app.prompts import render_prompt
 
 
 class FakeDecisions:
@@ -72,6 +73,20 @@ def test_classifier_falls_back_to_escalation(monkeypatch: pytest.MonkeyPatch) ->
     fake_openai(monkeypatch, intent_classifier, decisions=FakeDecisions({"policy_faq": 0.1}))
     result = intent_classifier.classify_intent(IntentClassificationRequest(message="hmm", history=[]))
     assert [s.intent for s in result.intents] == [Intent.OFF_TOPIC_ESCALATE]
+
+
+def test_classifier_uses_top_intent_above_floor(monkeypatch: pytest.MonkeyPatch) -> None:
+    decisions = FakeDecisions({"product_question": 0.6, "policy_faq": 0.13})
+    fake_openai(monkeypatch, intent_classifier, decisions=decisions)
+    result = intent_classifier.classify_intent(
+        IntentClassificationRequest(message="What is the delivery fee for this product?", history=[])
+    )
+    assert [s.intent for s in result.intents] == [Intent.PRODUCT_QUESTION]
+
+
+def test_classifier_prompt_routes_shipping_fees_to_policy() -> None:
+    text = render_prompt("intent_classifier/classify_intent.md", intent="policy_faq")
+    assert "delivery fee for this" in text
 
 
 def test_main_agent_runs_tools_then_each_intent(tool_db: Session, monkeypatch: pytest.MonkeyPatch) -> None:
