@@ -31,7 +31,7 @@ Session history lives in `app/agent/memory.py`.
 - `app/db/` — models, session, seeding
 - `app/api/` — FastAPI routes and static chat UI
 - `prompts/` — Markdown prompts
-- `data/seed/` — fixtures (products carry `colors`, `sizes`, `dimensions`, `weight`, `material`); 
+- `data/seed/` — fixtures (products carry `colors`, `sizes`, `dimensions`, `weight`, `material`);
 - `data/docs/` — policy docs indexed into Qdrant
 
 ## Rules
@@ -43,6 +43,16 @@ Session history lives in `app/agent/memory.py`.
 - Get OpenAI and Qdrant clients from `app/clients/`; do not construct your own.
 - Config via `app/config.py` (`.env`).
 - Minimal comments, type hints everywhere. Lint with `uv run ruff check`.
+
+## LangSmith Rules
+
+- Never print, log, or paste the value of any key. Refer to keys by name only.
+- Boxgrove sends traces with `LANGSMITH_AGENT_ID` and `LANGSMITH_AGENT_ENVIRONMENT`. Never set `LANGSMITH_PROJECT` in
+  .env.
+  Set it only for a single terminal command when a tool asks for it.
+- When a trace is missing, run `scripts/check_setup.py` first, then follow `prompts/chapter_02/troubleshoot-setup.md` in
+  order.
+- Do not edit .env. If a value must change, say which name to change and what to put in it.
 
 ## Commands
 
