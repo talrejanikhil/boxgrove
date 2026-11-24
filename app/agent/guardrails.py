@@ -1,6 +1,8 @@
 import re
 from dataclasses import dataclass
 
+from langsmith import traceable
+
 # Deterministic regex rules only, no LLM calls, so no added latency or cost.
 # Production systems would layer LLM-based or dedicated guardrail tooling on top (see the production-readiness chapter).
 
@@ -47,12 +49,18 @@ PII_SHAPES = re.compile(
 )
 
 
+def _verdict(result: GuardrailResult) -> dict[str, str | bool | None]:
+    return {"verdict": "passed" if result.allowed else "blocked", "allowed": result.allowed, "reason": result.reason}
+
+
+@traceable(name="screen_input", run_type="chain", process_outputs=_verdict)
 def screen_input(message: str) -> GuardrailResult:
     if INJECTION.search(message):
         return GuardrailResult(False, "prompt_injection", BLOCKED_INPUT_REPLY)
     return GuardrailResult(True)
 
 
+@traceable(name="screen_output", run_type="chain", process_outputs=_verdict)
 def screen_output(text: str) -> GuardrailResult:
     if PII_SHAPES.search(text):
         return GuardrailResult(False, "pii_shape")

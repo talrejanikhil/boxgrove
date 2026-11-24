@@ -1,5 +1,6 @@
 from threading import Lock
 
+from langsmith import traceable
 from sqlalchemy import create_engine, delete, select
 from sqlalchemy.orm import DeclarativeBase, Mapped, Session, mapped_column
 from sqlalchemy.pool import StaticPool
@@ -39,6 +40,7 @@ def get_history(session_id: str) -> list[Turn]:
     return [Turn(role=r.role, content=r.content) for r in reversed(rows)]
 
 
+@traceable(name="append_exchange", run_type="chain")
 def append_exchange(session_id: str, user_message: str, reply: str) -> None:
     with _lock, Session(_engine) as session:
         session.add_all(

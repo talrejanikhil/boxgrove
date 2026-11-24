@@ -1,7 +1,6 @@
 from langchain_core.tools import tool
 
-from app.clients import qdrant
-from app.retrieval import embeddings, qdrant_client
+from app.retrieval import qdrant_client
 
 
 @tool(parse_docstring=True)
@@ -14,8 +13,11 @@ def search_knowledge_base(query: str) -> dict:
     Args:
         query: A natural-language question or keywords.
     """
-    vector = embeddings.embed([query])[0]
-    results = qdrant_client.search(qdrant.get_qdrant(), vector)
+    docs = qdrant_client.retrieve(query)
     return {
-        "results": [{k: r[k] for k in ("doc_type", "title", "text", "score")} for r in results],
+        "results": [
+            {"doc_type": d["metadata"]["doc_type"], "title": d["metadata"]["title"],
+             "text": d["page_content"], "score": d["metadata"]["score"]}
+            for d in docs
+        ],
     }

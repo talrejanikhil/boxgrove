@@ -1,5 +1,6 @@
 from functools import lru_cache
 
+from langsmith.wrappers import wrap_openai
 from openai import OpenAI
 
 from app.config import settings
@@ -7,4 +8,4 @@ from app.config import settings
 
 @lru_cache
 def get_openai() -> OpenAI:
-    return OpenAI(api_key=settings.openai_api_key)
+    return wrap_openai(OpenAI(api_key=settings.openai_api_key))

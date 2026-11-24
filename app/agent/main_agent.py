@@ -1,5 +1,7 @@
 import json
 
+from langsmith import traceable
+
 from app.agent.schemas import AgentRequest, AgentResponse, AgentResult, IntentOutcome, ToolCall
 from app.clients.openai_client import get_openai
 from app.config import settings
@@ -17,6 +19,7 @@ def run_tool(name: str, arguments: str) -> str:
         return json.dumps({"error": f"{type(e).__name__}: {e}"})
 
 
+@traceable(name="run_main_agent", run_type="chain")
 def run_main_agent(request: AgentRequest) -> AgentResult:
     client = get_openai()
     instructions = render_prompt("main_agent/system.md", customer_id=request.customer_id, stricter=request.stricter)
