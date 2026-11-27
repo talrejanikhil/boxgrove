@@ -19,7 +19,11 @@ def run_tool(name: str, arguments: str) -> str:
         return json.dumps({"error": f"{type(e).__name__}: {e}"})
 
 
-@traceable(name="run_main_agent", run_type="chain")
+@traceable(
+    name="run_main_agent",
+    run_type="chain",
+    process_inputs=lambda inputs: inputs["request"].model_dump(exclude={"history"}),
+)
 def run_main_agent(request: AgentRequest) -> AgentResult:
     client = get_openai()
     instructions = render_prompt("main_agent/system.md", customer_id=request.customer_id, stricter=request.stricter)

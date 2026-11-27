@@ -49,6 +49,10 @@ PII_SHAPES = re.compile(
 )
 
 
+def mask_pii(text: str) -> str:
+    return PII_SHAPES.sub("[REDACTED]", text)
+
+
 def _verdict(result: GuardrailResult) -> dict[str, str | bool | None]:
     return {"verdict": "passed" if result.allowed else "blocked", "allowed": result.allowed, "reason": result.reason}
 

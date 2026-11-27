@@ -72,3 +72,10 @@ def test_patterns_run_in_linear_time(text: str) -> None:
     screen_input(text)
     screen_output(text)
     assert time.perf_counter() - start < 1.0
+
+
+def test_mask_pii_hides_email_phone_card() -> None:
+    from app.agent.guardrails import mask_pii
+
+    text = "a@b.com, 415-555-0134, 4111 1111 1111 1111, order 42"
+    assert mask_pii(text) == "[REDACTED], [REDACTED], [REDACTED], order 42"

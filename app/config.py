@@ -15,6 +15,7 @@ class Settings(BaseSettings):
     intent_threshold: float = 0.65
     max_tool_rounds: int = 6
     history_turns: int = 10
+    app_version: str = "0.1.0"
 
 
 settings = Settings()

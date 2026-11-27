@@ -8,7 +8,7 @@ from app.prompts import render_prompt
 
 
 def _llm_inputs(inputs: dict) -> dict:
-    return {"messages": inputs["messages"]}
+    return {"messages": inputs["messages"][-1:]}
 
 
 def _llm_outputs(decision: Decision) -> dict:
@@ -37,7 +37,11 @@ def _decide(messages: list[dict], questions: list[dict]) -> Decision:
     return get_openai().decisions.create(model=settings.intent_model, input=messages, questions=questions)
 
 
-@traceable(name="classify_intent", run_type="chain")
+@traceable(
+    name="classify_intent",
+    run_type="chain",
+    process_inputs=lambda inputs: inputs["request"].model_dump(exclude={"history"}),
+)
 def classify_intent(request: IntentClassificationRequest) -> IntentClassification:
     messages = [{"role": t.role, "content": t.content} for t in request.history]
     messages.append({"role": "user", "content": request.message})
